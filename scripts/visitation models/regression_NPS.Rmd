@@ -1,0 +1,219 @@
+---
+title: "NPS Regressions"
+author: "Nate Merrill"
+date: "2024-04-25"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+This file creates regression models for the NPS and goodness of fit routines from CV tests
+
+## load packages
+```{r echo = T, message=FALSE}
+library(lme4)
+library(sjPlot)
+library(ggplot2)
+library(dominanceanalysis)
+library(stargazer)
+library(caret)
+library(MLmetrics)
+library(knitr)
+library(dplyr)
+```
+
+## prepare analysis dataset
+
+```{r echo = T, message=FALSE,warning = FALSE}
+
+# set the working directory to the root of the repo 
+setwd(dirname(dirname(dirname(rstudioapi::getActiveDocumentContext()$path))))
+
+#load the data
+combined=read.csv("./data/visitation_model_files/combined_national.csv")
+
+#cut to NPS data
+combined <- combined[combined$agency =="NPS",]
+
+#create dataframe where we have visitation observations
+combined=combined[complete.cases(combined$visits),]
+```
+
+## create random effects models for NPS using lme4 package (log-log) #CANT GET REGION TO WORK SINCE "GREAT PLAINS" only has one park there. Dropped regions here
+
+```{r echo = T, results="hide",warning=FALSE }
+
+reg_covariates_re_loglog=lmer(log(visits)~temp+log_pop30+log_popin+factor(month)+factor(year)+(1|siteid), data=combined)
+
+reg_airsage_re_loglog=lmer(log(visits)~log_airsageud+temp+log_pop30+log_popin+factor(month)+factor(year)+(1|siteid), data=combined)
+
+reg_flikr_re_loglog=lmer(log(visits)~log_pud+temp+log_pop30+log_popin+factor(month)+factor(year)+(1|siteid), data=combined)
+
+reg_twitter_re_loglog=lmer(log(visits)~log_tud+temp+log_pop30+log_popin+factor(month)+factor(year)+(1|siteid), data=combined)
+
+reg_aud_re_loglog=lmer(log(visits)~log_aud+temp+log_pop30+log_popin+factor(month)+factor(year)+(1|siteid), data=combined)
+
+reg_eud_re_loglog=lmer(log(visits)~log_eud+temp+log_pop30+log_popin+factor(month)+factor(year)+(1|siteid), data=combined)
+
+reg_allsources_re_loglog=lmer(log(visits)~log_airsageud+log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(month)+factor(year)+(1|siteid), data=combined)
+
+reg_socialmedia_re_loglog=lmer(log(visits)~log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(month)+factor(year)+(1|siteid), data=combined)
+
+
+# create random effects models for NPS using lme4 package (log-linear) needed to drop year factor for the second CV
+
+reg_covariates_re_loglog2=lmer(log(visits)~temp+log_pop30+log_popin+factor(month)+(1|siteid), data=combined)
+
+reg_airsage_re_loglog2=lmer(log(visits)~log_airsageud+temp+log_pop30+log_popin+factor(month)+(1|siteid), data=combined)
+
+reg_flikr_re_loglog2=lmer(log(visits)~log_pud+temp+log_pop30+log_popin+factor(month)+(1|siteid), data=combined)
+
+reg_twitter_re_loglog2=lmer(log(visits)~log_tud+temp+log_pop30+log_popin+factor(month)+(1|siteid), data=combined)
+
+reg_aud_re_loglog2=lmer(log(visits)~log_aud+temp+log_pop30+log_popin+factor(month)+(1|siteid), data=combined)
+
+reg_eud_re_loglog2=lmer(log(visits)~log_eud+temp+log_pop30+log_popin+factor(month)+(1|siteid), data=combined)
+
+reg_allsources_re_loglog2=lmer(log(visits)~log_airsageud+log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(month)+(1|siteid), data=combined)
+
+reg_socialmedia_re_loglog2=lmer(log(visits)~log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(month)+(1|siteid), data=combined)
+
+```
+
+```{r echo = T,warning=FALSE }
+#save all models above to Rdata for later use
+model_list = list(formula(reg_covariates_re_loglog),formula(reg_airsage_re_loglog), formula(reg_flikr_re_loglog), formula(reg_twitter_re_loglog), formula(reg_aud_re_loglog), formula(reg_eud_re_loglog), formula(reg_allsources_re_loglog), formula(reg_socialmedia_re_loglog))
+#name them
+names(model_list) = c("covariates","airsage","flikr","twitter","alltrails","ebird","allsources","socialmedia")
+
+#save(reg_covariates_re_loglog, reg_airsage_re_loglog, reg_flikr_re_loglog, reg_twitter_re_loglog, reg_aud_re_loglog, reg_eud_re_loglog, reg_allsources_re_loglog, reg_socialmedia_re_loglog, reg_covariates_re_loglog2, reg_airsage_re_loglog2, reg_flikr_re_loglog2, reg_twitter_re_loglog2, reg_aud_re_loglog2, reg_eud_re_loglog2, reg_allsources_re_loglog2, reg_socialmedia_re_loglog2,model_list, file = "./data/visitation_model_files/regression_models_NPS.Rdata")
+
+```
+
+```{r echo = T,warning=FALSE }
+# see table and scatter of specific model
+mod=reg_allsources_re_loglog
+tab_model(mod)
+
+
+# scatter plot fitted regression results against observed
+combined_regset=model.frame(mod)
+pred=exp(predict(mod))
+combined_regset$pred=pred
+combined_regset$visits=exp(combined_regset$'log(visits)')
+
+ggplot(combined_regset, aes(x = visits, y = pred)) +
+  geom_point(shape = 19, size = 3) +
+  labs(x = "Observed", y = "Fitted", title = "Fitted vs Observed") +
+  theme(axis.text = element_text(size = 12), 
+        axis.title = element_text(size = 14), 
+        plot.title = element_text(size = 16)) 
+
+```
+
+```{r echo = T,warning=FALSE }
+#get relative importance of variables from the all sources model, Dominance analysis (chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cran.r-project.org/web/packages/dominanceanalysis/dominanceanalysis.pdf)
+lmm1= reg_allsources_re_loglog
+lmm0=lmer(log(visits)~(1|siteid), data=combined)
+
+da<-dominanceAnalysis(lmm1, null.model=lmm0) #takes time
+
+#print(da)
+#summary(da)
+#plot(da,which.graph='complete') 
+#plot(da,which.graph='conditional')
+#plot(da,which.graph='general')
+
+contribute=da$contribution.average[['n.marg']]
+contribute=contribute[order(contribute, decreasing = TRUE)]
+
+contribute2=da$contribution.average[['n.cond']]
+contribute2=contribute2[order(contribute2, decreasing = TRUE)]
+
+#plot contribute of each variable to R2 across all levels marginal
+barplot(contribute, col=rainbow(length(contribute)), main="Relative Importance of Variables (marginal)", xlab="Variable", ylab="Contribution to R2", names.arg=names(contribute), cex.names=0.4, las=.4)
+
+#plot contribute of each variable to R2 across all levels conditional
+barplot(contribute2, col=rainbow(length(contribute2)), main="Relative Importance of Variables (conditional)", xlab="Variable", ylab="Contribution to R2", names.arg=names(contribute2), cex.names=0.4, las=.4)
+
+```
+
+## test models with repeated k-fold CV and goodness of fit routines
+
+```{r echo = T,warning=FALSE }
+# Define the multiStats GOF functions
+multiStats <- function(data, lev = NULL, model = NULL) {
+  data=data[complete.cases(data),]
+  out <- c(RMSE = RMSE(data$pred, data$obs),
+           MAE = MAE(data$pred, data$obs),
+           MAPE = MAPE(data$pred, data$obs),
+           R2 = R2(data$pred, data$obs),
+           ME= mean(data$pred-data$obs))
+  names(out) <- c("RMSE", "MAE","MAPE","R2","ME")
+  out
+}
+
+multiStatslength=length(multiStats(data.frame(pred = 1, obs = 2)))
+```
+
+
+### use case: use model to predict visitation for other units (assuming we know nothing about the left out units, ie no counts)
+
+```{r echo = T,warning=FALSE }
+#list of models specifications to test
+model_list = list(formula(reg_covariates_re_loglog),formula(reg_airsage_re_loglog), formula(reg_flikr_re_loglog), formula(reg_twitter_re_loglog), formula(reg_aud_re_loglog), formula(reg_eud_re_loglog), formula(reg_allsources_re_loglog), formula(reg_socialmedia_re_loglog))
+
+#name them
+names(model_list) = c("covariates","airsage","flikr","twitter","alltrails","ebird","allsources","socialmedia")
+
+#set the seed for reproducibility
+set.seed(13)
+```
+
+```{r echo = T,warning=FALSE }
+#settings for k-fold CV
+k=10
+iter=10 #can add more later for
+
+siteids=unique(combined$siteid)
+
+# Create a array to store the results
+results <- array(NA, dim = c(iter, multiStatslength,length(model_list) ), dimnames = list(NULL, c("RMSE", "MAE","MAPE","R2","ME"), names(model_list)))
+results_logs <- array(NA, dim = c(iter, multiStatslength,length(model_list) ), dimnames = list(NULL, c("RMSE", "MAE","MAPE","R2","ME"), names(model_list)))
+
+
+#create k-fold CV test for NPS models with folds being siteids
+#loop through each iteration
+
+for (j in 1:iter) {
+  #create k-fold CV test for USFS with folds being sideids
+  folds <- createFolds(siteids, k = k, list = TRUE, returnTrain = TRUE)
+  site_ids_in_folds <- lapply(folds, function(fold) siteids[fold])
+
+  for (i in 1:length(folds)) {
+    # Create the training and test sets
+    train <- combined[combined$siteid %in% site_ids_in_folds[[i]], ]
+    test <- combined[!combined$siteid %in% site_ids_in_folds[[i]], ]
+
+      for (m in 1:length(model_list)) {
+      # Fit the models
+      model <- lmer(model_list[[m]], data=train)
+      # Make predictions in levels not logs on test set
+      pred <- exp(predict(model, newdata=test, allow.new.levels = TRUE))
+      # Store the results
+      results[j,,m] <- multiStats(data.frame(pred = pred, obs = test$visits))
+      results_logs[j,,m] <- multiStats(data.frame(pred = predict(model, newdata=test, allow.new.levels = TRUE), obs = log(test$visits)))
+      }
+  }
+}
+
+# Calculate the mean of the GOF results across all iterations
+overall_multi=colMeans(results)
+overall_multi_logs=colMeans(results_logs)
+
+overall_multi <- format(overall_multi, scientific = FALSE, digits = 2)
+overall_multi_logs <- format(overall_multi_logs, scientific = FALSE, digits = 2)
+
+kable(overall_multi, caption = "GOF levels... not sure R2 is interpretable this way")
+kable(overall_multi_logs, caption = "GOF logs") 
+```

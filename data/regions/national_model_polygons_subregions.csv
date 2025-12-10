@@ -1,0 +1,147 @@
+﻿siteid,UNIT_NAME,RPA_subreg
+NAT_001,Great Smoky Mountains National Park,South Central
+NAT_002,Lincoln Memorial,Northeast
+NAT_003,Grand Canyon National Park,Intermountain
+NAT_004,World War II Memorial,Northeast
+NAT_005,Rocky Mountain National Park,Intermountain
+NAT_006,Vietnam Veterans Memorial,Northeast
+NAT_007,Independence National Historical Park,Northeast
+NAT_008,Zion National Park,Intermountain
+NAT_009,Yosemite National Park,Pacific Southwest
+NAT_010,Castle Clinton National Monument,Northeast
+NAT_011,Statue Of Liberty National Monument,Northeast
+NAT_012,Yellowstone National Park,Intermountain
+NAT_014,Korean War Veterans Memorial,Northeast
+NAT_015,"Martin Luther King, Jr., Memorial",Northeast
+NAT_016,Acadia National Park,Northeast
+NAT_017,Grand Teton National Park,Intermountain
+NAT_018,Chattahoochee River National Recreation Area,Southeast
+NAT_019,Delaware Water Gap National Recreation Area,Northeast
+NAT_020,Colonial National Historical Park,Southeast
+NAT_021,Franklin Delano Roosevelt Memorial,Northeast
+NAT_022,Olympic National Park,Pacific Northwest
+NAT_023,Boston National Historical Park,Northeast
+NAT_024,Thomas Jefferson Memorial,Northeast
+NAT_025,Glacier National Park,Intermountain
+NAT_026,Joshua Tree National Park,Pacific Southwest
+NAT_028,Bryce Canyon National Park,Intermountain
+NAT_029,Rock Creek Park,Northeast
+NAT_031,Valley Forge National Historical Park,Northeast
+NAT_032,Cuyahoga Valley National Park,Northeast
+NAT_033,Indiana Dunes National Park,North Central
+NAT_034,Gateway Arch National Park,North Central
+NAT_035,Mount Rushmore National Memorial,Great Plains
+NAT_037,Arches National Park,Intermountain
+NAT_047,Tongass National Forest-Juneau and Admiralty National Monument,Pacific Northwest
+NAT_049,Tongass National Forest-Sitka and Hoonah,Pacific Northwest
+NAT_050,"Tongass National Forest-Yakutat, Petersburg, and Wrangell",Pacific Northwest
+NAT_136,Parker River National Wildlife Refuge,Northeast
+NAT_137,Baskett Slough National Wildlife Refuge,Pacific Northwest
+NAT_138,Rocky Mountain Arsenal National Wildlife Refuge,Intermountain
+NAT_140,Ridgefield National Wildlife Refuge,Pacific Northwest
+NAT_141,Arthur R. Marshall Loxahatchee National Wildlife Refuge,Southeast
+NAT_142,San Diego National Wildlife Refuge,Pacific Southwest
+NAT_143,Okefenokee National Wildlife Refuge,Southeast
+NAT_144,Harris Neck National Wildlife Refuge,Southeast
+NAT_145,Tijuana Slough National Wildlife Refuge,Pacific Southwest
+NAT_146,Wolf Creek National Fish Hatchery,South Central
+NAT_039,Custer National Forest,Intermountain
+NAT_040,Gallatin National Forest,Intermountain
+NAT_041,Helena National Forest,Intermountain
+NAT_042,Humboldt-Toiyabe National Forest -  Spring Mountains NRA,Intermountain
+NAT_043,Humboldt-Toiyabe National Forest - Outside Spring Mountains NRA,Intermountain
+NAT_044,Lewis and Clark National Forest,Intermountain
+NAT_045,Medicine Bow National Forest,Intermountain
+NAT_046,Routt National Forest,Intermountain
+NAT_051,White River National Forest,Intermountain
+NAT_052,"Grand Mesa, Uncompahgre and Gunnison National Forests",Intermountain
+NAT_053,Shoshone National Forest,Intermountain
+NAT_054,Nebraska National Forest,Great Plains
+NAT_055,San Juan National Forest,Intermountain
+NAT_056,Black Hills National Forest,Great Plains
+NAT_057,Bighorn National Forest,Intermountain
+NAT_058,Pike and San Isabel National Forests,Intermountain
+NAT_059,Carson National Forest,Intermountain
+NAT_060,Cibola National Forest,Intermountain
+NAT_061,Coronado National Forest,Intermountain
+NAT_062,Lincoln National Forest,Intermountain
+NAT_063,Gila National Forest,Intermountain
+NAT_064,Prescott National Forest,Intermountain
+NAT_065,Apache-Sitgreaves National Forests,Intermountain
+NAT_066,Santa Fe National Forest,Intermountain
+NAT_067,Dakota Prairie Grasslands,Great Plains
+NAT_068,Bitterroot National Forest,Intermountain
+NAT_069,Idaho Panhandle National Forests,Intermountain
+NAT_070,Nez Perce-Clearwater National Forest,Intermountain
+NAT_071,Lolo National Forest,Intermountain
+NAT_072,Kootenai National Forest,Intermountain
+NAT_073,Payette National Forest,Intermountain
+NAT_074,Stanislaus National Forest,Pacific Southwest
+NAT_075,Mendocino National Forest,Pacific Southwest
+NAT_076,Cleveland National Forest,Pacific Southwest
+NAT_077,Modoc National Forest,Pacific Southwest
+NAT_078,Shasta-Trinity National Forest,Pacific Southwest
+NAT_079,San Bernardino National Forest,Pacific Southwest
+NAT_080,Los Padres National Forest,Pacific Southwest
+NAT_081,Angeles National Forest,Pacific Southwest
+NAT_082,Six Rivers National Forest,Pacific Southwest
+NAT_083,Klamath National Forest,Pacific Southwest
+NAT_084,Sequoia National Forest,Pacific Southwest
+NAT_085,Inyo National Forest,Pacific Southwest
+NAT_086,Eldorado National Forest,Pacific Southwest
+NAT_087,Malheur National Forest,Pacific Northwest
+NAT_088,Siuslaw National Forest,Pacific Northwest
+NAT_089,Bridger-Teton National Forest,Intermountain
+NAT_090,Salmon-Challis National Forest,Intermountain
+NAT_091,Ashley National Forest,Intermountain
+NAT_092,Fishlake National Forest,Intermountain
+NAT_093,Boise National Forest,Intermountain
+NAT_094,Uinta-Wasatch-Cache National Forest,Intermountain
+NAT_095,Manti-La Sal National Forest,Intermountain
+NAT_096,Dixie National Forest,Intermountain
+NAT_097,Sierra National Forest,Pacific Southwest
+NAT_098,Willamette National Forest,Pacific Northwest
+NAT_099,Fremont-Winema National Forest,Pacific Northwest
+NAT_100,Wallowa-Whitman National Forest,Pacific Northwest
+NAT_101,Colville National Forest,Pacific Northwest
+NAT_102,Okanogan-Wenatchee National Forest,Pacific Northwest
+NAT_103,Umatilla National Forest,Pacific Northwest
+NAT_104,Rogue River-Siskiyou National Forests,Pacific Northwest
+NAT_105,Mt. Baker-Snoqualmie National Forest,Pacific Northwest
+NAT_106,Ochoco National Forest,Pacific Northwest
+NAT_107,Deschutes National Forest,Pacific Northwest
+NAT_108,Columbia River Gorge National Scenic Area,Pacific Northwest
+NAT_109,Mt. Hood National Forest,Pacific Northwest
+NAT_110,Gifford Pinchot National Forest,Pacific Northwest
+NAT_111,Francis Marion and Sumter National Forests,Southeast
+NAT_112,National Forests in North Carolina,Southeast
+NAT_113,National Forests in Mississippi,South Central
+NAT_114,Umpqua National Forest,Pacific Northwest
+NAT_115,Land Between the Lakes National Recreation Area,South Central
+NAT_116,Mark Twain National Forest,North Central
+NAT_117,Hiawatha National Forest,North Central
+NAT_118,Daniel Boone National Forest,South Central
+NAT_119,George Washington and Jefferson National Forest,Southeast
+NAT_120,Cherokee National Forest,South Central
+NAT_121,National Forests in Texas,South Central
+NAT_122,Chequamegon-Nicolet National Forest,North Central
+NAT_123,Wayne National Forest,Northeast
+NAT_124,Hoosier National Forest,North Central
+NAT_125,Huron-Manistee National Forest,North Central
+NAT_126,Superior National Forest,North Central
+NAT_127,Shawnee National Forest,North Central
+NAT_128,Chippewa National Forest,North Central
+NAT_129,Monongahela National Forest,Northeast
+NAT_130,Ottawa National Forest,North Central
+NAT_131,National Forests in Florida,Southeast
+NAT_132,Chattahoochee-Oconee National Forests,Southeast
+NAT_133,National Forests in Alabama,South Central
+NAT_134,Midewin National Tallgrass Prairie,North Central
+NAT_135,Chugach National Forest,Pacific Northwest
+NAT_013,San Francisco Maritime National Historical Park,Pacific Southwest
+NAT_048,"Tongass National Forest-Ketchikan Misty, Craig, and Thorne Bay",Pacific Northwest
+NAT_036,Canaveral National Seashore,Southeast
+NAT_139,Pinckney Island National Wildlife Refuge,Southeast
+NAT_027,Cape Hatteras National Seashore,Southeast
+NAT_030,Assateague Island National Seashore,Northeast
+NAT_038,Sleeping Bear Dunes National Lakeshore,North Central

@@ -1,0 +1,147 @@
+siteid,UNIT_NAME,Pop_30miles
+NAT_028,Bryce Canyon National Park,6658
+NAT_050,"Tongass National Forest-Yakutat, Petersburg, and Wrangell",9392
+NAT_037,Arches National Park,11840
+NAT_048,"Tongass National Forest-Ketchikan Misty, Craig, and Thorne Bay",19927
+NAT_012,Yellowstone National Park,22727
+NAT_087,Malheur National Forest,28939
+NAT_003,Grand Canyon National Park,29948
+NAT_017,Grand Teton National Park,39969
+NAT_049,Tongass National Forest-Sitka and Hoonah,43043
+NAT_027,Cape Hatteras National Seashore,47963
+NAT_047,Tongass National Forest-Juneau and Admiralty National Monument,48755
+NAT_090,Salmon-Challis National Forest,49399
+NAT_073,Payette National Forest,52148
+NAT_085,Inyo National Forest,54813
+NAT_057,Bighorn National Forest,55037
+NAT_063,Gila National Forest,70095
+NAT_039,Custer National Forest,70907
+NAT_053,Shoshone National Forest,81786
+NAT_077,Modoc National Forest,87623
+NAT_092,Fishlake National Forest,88232
+NAT_089,Bridger-Teton National Forest,93316
+NAT_009,Yosemite National Park,113175
+NAT_146,Wolf Creek National Fish Hatchery,115935
+NAT_025,Glacier National Park,116081
+NAT_016,Acadia National Park,116634
+NAT_062,Lincoln National Forest,118420
+NAT_046,Routt National Forest,127466
+NAT_035,Mount Rushmore National Memorial,135284
+NAT_044,Lewis and Clark National Forest,135869
+NAT_055,San Juan National Forest,139237
+NAT_065,Apache-Sitgreaves National Forests,166271
+NAT_100,Wallowa-Whitman National Forest,168321
+NAT_040,Gallatin National Forest,169091
+NAT_038,Sleeping Bear Dunes National Lakeshore,170459
+NAT_130,Ottawa National Forest,170909
+NAT_068,Bitterroot National Forest,173277
+NAT_041,Helena National Forest,178152
+NAT_126,Superior National Forest,182625
+NAT_128,Chippewa National Forest,183248
+NAT_072,Kootenai National Forest,187720
+NAT_091,Ashley National Forest,196109
+NAT_056,Black Hills National Forest,202958
+NAT_054,Nebraska National Forest,212951
+NAT_082,Six Rivers National Forest,218611
+NAT_117,Hiawatha National Forest,227926
+NAT_099,Fremont-Winema National Forest,231614
+NAT_106,Ochoco National Forest,233150
+NAT_008,Zion National Park,238765
+NAT_107,Deschutes National Forest,259532
+NAT_096,Dixie National Forest,268182
+NAT_101,Colville National Forest,273334
+NAT_059,Carson National Forest,274976
+NAT_071,Lolo National Forest,278527
+NAT_103,Umatilla National Forest,293253
+NAT_045,Medicine Bow National Forest,303876
+NAT_135,Chugach National Forest,313104
+NAT_144,Harris Neck National Wildlife Refuge,329489
+NAT_030,Assateague Island National Seashore,348174
+NAT_074,Stanislaus National Forest,352044
+NAT_078,Shasta-Trinity National Forest,354416
+NAT_070,Nez Perce-Clearwater National Forest,363160
+NAT_143,Okefenokee National Wildlife Refuge,377756
+NAT_052,"Grand Mesa, Uncompahgre and Gunnison National Forests",396895
+NAT_083,Klamath National Forest,400053
+NAT_067,Dakota Prairie Grasslands,410665
+NAT_051,White River National Forest,455801
+NAT_022,Olympic National Park,470969
+NAT_122,Chequamegon-Nicolet National Forest,475856
+NAT_115,Land Between the Lakes National Recreation Area,489843
+NAT_066,Santa Fe National Forest,490135
+NAT_104,Rogue River-Siskiyou National Forests,493676
+NAT_095,Manti-La Sal National Forest,494013
+NAT_139,Pinckney Island National Wildlife Refuge,516411
+NAT_129,Monongahela National Forest,559051
+NAT_064,Prescott National Forest,602180
+NAT_075,Mendocino National Forest,606992
+NAT_102,Okanogan-Wenatchee National Forest,625576
+NAT_026,Joshua Tree National Park,642153
+NAT_137,Baskett Slough National Wildlife Refuge,699747
+NAT_127,Shawnee National Forest,702806
+NAT_114,Umpqua National Forest,748499
+NAT_005,Rocky Mountain National Park,784872
+NAT_093,Boise National Forest,786005
+NAT_098,Willamette National Forest,808353
+NAT_043,Humboldt-Toiyabe National Forest - Outside Spring Mountains NRA,820029
+NAT_069,Idaho Panhandle National Forests,843746
+NAT_118,Daniel Boone National Forest,1082639
+NAT_088,Siuslaw National Forest,1086487
+NAT_124,Hoosier National Forest,1159633
+NAT_060,Cibola National Forest,1187911
+NAT_036,Canaveral National Seashore,1219170
+NAT_097,Sierra National Forest,1220930
+NAT_020,Colonial National Historical Park,1246026
+NAT_086,Eldorado National Forest,1280452
+NAT_061,Coronado National Forest,1285354
+NAT_001,Great Smoky Mountains National Park,1465523
+NAT_123,Wayne National Forest,1485112
+NAT_109,Mt. Hood National Forest,2047704
+NAT_084,Sequoia National Forest,2077748
+NAT_019,Delaware Water Gap National Recreation Area,2220362
+NAT_042,Humboldt-Toiyabe National Forest -  Spring Mountains NRA,2255867
+NAT_116,Mark Twain National Forest,2287493
+NAT_145,Tijuana Slough National Wildlife Refuge,2288427
+NAT_034,Gateway Arch National Park,2292973
+NAT_140,Ridgefield National Wildlife Refuge,2368309
+NAT_108,Columbia River Gorge National Scenic Area,2403776
+NAT_120,Cherokee National Forest,2675214
+NAT_113,National Forests in Mississippi,2693833
+NAT_136,Parker River National Wildlife Refuge,2716801
+NAT_133,National Forests in Alabama,2770285
+NAT_110,Gifford Pinchot National Forest,2819726
+NAT_119,George Washington and Jefferson National Forest,2869598
+NAT_094,Uinta-Wasatch-Cache National Forest,2922622
+NAT_134,Midewin National Tallgrass Prairie,2963699
+NAT_032,Cuyahoga Valley National Park,3210141
+NAT_142,San Diego National Wildlife Refuge,3261833
+NAT_138,Rocky Mountain Arsenal National Wildlife Refuge,3305478
+NAT_125,Huron-Manistee National Forest,3324444
+NAT_121,National Forests in Texas,3351633
+NAT_111,Francis Marion and Sumter National Forests,3491614
+NAT_141,Arthur R. Marshall Loxahatchee National Wildlife Refuge,3809752
+NAT_058,Pike and San Isabel National Forests,3889122
+NAT_132,Chattahoochee-Oconee National Forests,3931905
+NAT_080,Los Padres National Forest,4128210
+NAT_105,Mt. Baker-Snoqualmie National Forest,4247752
+NAT_033,Indiana Dunes National Park,4327279
+NAT_013,San Francisco Maritime National Historical Park,4343367
+NAT_112,National Forests in North Carolina,4354735
+NAT_023,Boston National Historical Park,4519175
+NAT_031,Valley Forge National Historical Park,5558780
+NAT_018,Chattahoochee River National Recreation Area,5582038
+NAT_007,Independence National Historical Park,5802702
+NAT_021,Franklin Delano Roosevelt Memorial,5946816
+NAT_014,Korean War Veterans Memorial,5947739
+NAT_002,Lincoln Memorial,5948589
+NAT_015,"Martin Luther King, Jr., Memorial",5951327
+NAT_006,Vietnam Veterans Memorial,5957906
+NAT_024,Thomas Jefferson Memorial,5964999
+NAT_004,World War II Memorial,5973818
+NAT_131,National Forests in Florida,6095340
+NAT_029,Rock Creek Park,6515606
+NAT_079,San Bernardino National Forest,8001201
+NAT_076,Cleveland National Forest,12924242
+NAT_081,Angeles National Forest,15417690
+NAT_010,Castle Clinton National Monument,16236629
+NAT_011,Statue Of Liberty National Monument,16306894

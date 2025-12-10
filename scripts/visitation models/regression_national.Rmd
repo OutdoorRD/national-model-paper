@@ -1,0 +1,698 @@
+---
+title: "National Model Regressions Log-Log"
+authors: "Nate Merrill, Sama Winder, Dieta Hanson"
+date: "2024-12-21"
+output:
+  html_document: 
+    keep_md: yes # from production tables (previously "default" after html_document and nothing on this line)
+  #pdf_document: default
+  editor_options: # from main
+    chunk_output_type: console # from main
+---
+
+This file creates regression models for the national model and goodness of fit routines from CV tests for the national model
+
+## load packages
+
+```{r echo = T, message=FALSE,warning = FALSE}
+library(lme4)
+library(sjPlot)
+library(ggplot2)
+library(dominanceanalysis)
+library(stargazer)
+library(caret)
+library(MLmetrics)
+library(knitr)
+library(corrplot)
+library(dplyr)
+library(flextable) # for pretty tables
+library(forcats) # factor changes for prettier plots
+```
+
+## set the working directory in a "r setup" chunk
+```{r setup}
+knitr::opts_knit$set(root.dir = dirname(dirname(dirname(rstudioapi::getActiveDocumentContext()$path))))
+                       #rprojroot::find_rstudio_root_file())
+# SGW got errors trying to run the `setwd` command below
+
+knitr::opts_chunk$set(fig.path = "../../figs/regression_national/")
+
+```
+
+## prepare national model analysis dataset
+```{r echo = T, message=FALSE}
+# set the working directory to the root of the repo 
+#setwd(dirname(dirname(dirname(rstudioapi::getActiveDocumentContext()$path))))
+
+#load the data
+combined=read.csv("./data/visitation_model_files/combined_national.csv")
+
+#create dataset version for National model regressions below
+#cut to only 2018 and 2019
+combined=combined[combined$year %in% c(2018,2019),]
+
+#set NPS as referece level for agency for regressions
+combined$agency <- factor(combined$agency)
+combined <- within(combined, agency <- relevel(agency, ref = "NPS"))
+
+#create dataframe where we have visitation observations
+combined=combined[complete.cases(combined$visits),]
+
+```
+
+
+## create random effects models for national models using lme4 package (log-log) 
+
+```{r echo = T, results="hide",warning=FALSE }
+
+reg_covariates_re_loglog=lmer(log(visits)~temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+agency+(1|siteid), data=combined)
+
+reg_airsage_re_loglog=lmer(log(visits)~log_airsageud+temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+agency+(1|siteid), data=combined)
+
+reg_flikr_re_loglog=lmer(log(visits)~log_pud+temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+agency+(1|siteid), data=combined)
+
+reg_twitter_re_loglog=lmer(log(visits)~log_tud+temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+agency+(1|siteid), data=combined)
+
+reg_aud_re_loglog=lmer(log(visits)~log_aud+temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+agency+(1|siteid), data=combined)
+
+reg_eud_re_loglog=lmer(log(visits)~log_eud+temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+agency+(1|siteid), data=combined)
+
+reg_allsources_re_loglog=lmer(log(visits)~log_airsageud+log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+agency+(1|siteid), data=combined)
+
+reg_socialmedia_re_loglog=lmer(log(visits)~log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+agency+(1|siteid), data=combined)
+
+# create random effects models for USFS using lme4 package (log-linear) need to drop year factor and agency for the first CV fit on NPS predict others
+
+reg_covariates_re_loglog2=lmer(log(visits)~temp+log_pop30+log_popin+factor(region)+factor(month)+(1|siteid), data=combined)
+
+reg_airsage_re_loglog2=lmer(log(visits)~log_airsageud+temp+log_pop30+log_popin+factor(region)+factor(month)+(1|siteid), data=combined)
+
+reg_flikr_re_loglog2=lmer(log(visits)~log_pud+temp+log_pop30+log_popin+factor(region)+factor(month)+(1|siteid), data=combined)
+
+reg_twitter_re_loglog2=lmer(log(visits)~log_tud+temp+log_pop30+log_popin+factor(region)+factor(month)+(1|siteid), data=combined)
+
+reg_aud_re_loglog2=lmer(log(visits)~log_aud+temp+log_pop30+log_popin+factor(region)+factor(month)+(1|siteid), data=combined)
+
+reg_eud_re_loglog2=lmer(log(visits)~log_eud+temp+log_pop30+log_popin+factor(region)+factor(month)+(1|siteid), data=combined)
+
+reg_allsources_re_loglog2=lmer(log(visits)~log_airsageud+log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(region)+factor(month)+(1|siteid), data=combined)
+
+reg_socialmedia_re_loglog2=lmer(log(visits)~log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(region)+factor(month)+(1|siteid), data=combined)
+
+```
+
+
+```{r correlation_matrix_national, dev=c("pdf","png"), fig.dim = c(10,10), dpi=300, echo = T,warning=FALSE}
+#create correlation matrix
+cor_matrix <- cor(combined[,c("visits", "log_pud", "log_tud", "log_aud", "log_eud","log_airsageud", "temp", "log_pop30", "log_popin")])
+
+corrplot(cor_matrix, method = "circle", addCoef.col = "black")
+
+# not using this - saving it out as a chunk option
+#save the correlation plot as an output 
+#ggsave("./figs/combined/correlation_matrix_national.png", width = 10, height = 10, units = "in", dpi = 300)
+
+
+```
+
+```{r echo = T,warning=FALSE }
+#save all models above to Rdata for later use
+model_list = list(formula(reg_covariates_re_loglog),formula(reg_airsage_re_loglog), formula(reg_flikr_re_loglog), formula(reg_twitter_re_loglog), formula(reg_aud_re_loglog), formula(reg_eud_re_loglog), formula(reg_allsources_re_loglog), formula(reg_socialmedia_re_loglog))
+#name them
+names(model_list) = c("Covariates","AirSage","Flickr","Twitter","AllTrails","eBird","All Sources","Social media")
+
+#save(reg_covariates_re_loglog, reg_airsage_re_loglog, reg_flikr_re_loglog, reg_twitter_re_loglog, reg_aud_re_loglog, reg_eud_re_loglog, reg_allsources_re_loglog, reg_socialmedia_re_loglog, reg_covariates_re_loglog2, reg_airsage_re_loglog2, reg_flikr_re_loglog2, reg_twitter_re_loglog2, reg_aud_re_loglog2, reg_eud_re_loglog2, reg_allsources_re_loglog2, reg_socialmedia_re_loglog2,model_list, file = "./data/visitation_model_files/regression_models_national.Rdata")
+
+```
+
+```{r echo = T,warning=FALSE }
+# see table and scatter of specific model
+mod=reg_allsources_re_loglog
+
+tab_model(mod)
+
+# scatter plot fitted regression results against observed color dots by agency
+
+#first with people numbers
+combined_regset=model.frame(mod)
+pred=exp(predict(mod))
+combined_regset$pred=pred
+combined_regset$visits=exp(combined_regset$'log(visits)')
+
+ggplot(combined_regset, aes(x = visits, y = pred, color = agency)) +
+  geom_abline(slope = 1, intercept = 0) +
+  geom_point(shape = 19, size = 2) +
+  labs(x = "Observed", y = "Fitted") +
+  theme_bw(base_size = 20) +
+  theme(axis.text = element_text(size = 12), 
+        axis.title = element_text(size = 14), 
+        plot.title = element_text(size = 16)) +
+  scale_color_manual(values = c("red2", "blue1",  "goldenrod"),
+                    name = "Agency",
+                    breaks = c("FWS", "NPS", "USFS"))
+
+
+#now with logs
+combined_regset_log=model.frame(mod)
+pred_log=predict(mod)
+combined_regset_log$pred=pred_log
+combined_regset_log$visits=combined_regset_log$'log(visits)'
+
+ggplot(combined_regset_log, aes(x = visits, y = pred, color = agency)) +
+  geom_abline(slope = 1, intercept = 0) +
+  geom_point(shape = 19, size = 2) +
+  labs(x = "Observed", y = "Fitted") +
+  theme_bw(base_size = 20) +
+  theme(axis.text = element_text(size = 12), 
+        axis.title = element_text(size = 14), 
+        plot.title = element_text(size = 16)) +
+  scale_color_manual(values = c("red2", "blue1",  "goldenrod"),
+                    name = "Agency",
+                    breaks = c("FWS", "NPS", "USFS"))
+
+
+
+```
+
+```{r DA, echo = T,warning=FALSE,eval=TRUE, cache=TRUE }
+#get relative importance of variables from the all sources model, Dominance analysis (chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cran.r-project.org/web/packages/dominanceanalysis/dominanceanalysis.pdf)
+lmm1= reg_allsources_re_loglog
+lmm0=lmer(log(visits)~(1|siteid), data=combined)
+
+da<-dominanceAnalysis(lmm1, null.model=lmm0) #takes time
+
+#print(da)
+#summary(da)
+#plot(da,which.graph='complete') 
+#plot(da,which.graph='conditional')
+#plot(da,which.graph='general')
+
+contribute=da$contribution.average[['n.marg']]
+contribute=contribute[order(contribute, decreasing = TRUE)]
+
+contribute2=da$contribution.average[['n.cond']]
+contribute2=contribute2[order(contribute2, decreasing = TRUE)]
+```
+
+```{r DA_plots, dependson="DA", echo=T, warning=FALSE, eval=TRUE}
+#plot contribute of each variable to R2 across all levels marginal 
+barplot(contribute, col=rainbow(length(contribute)), main="Relative Importance of Variables (marginal)", xlab="Variable", ylab="Contribution to R2", names.arg=names(contribute), cex.names=0.4, las=.4)
+
+#plot contribute of each variable to R2 across all levels conditional on RE
+barplot(contribute2, col=rainbow(length(contribute2)), main="Relative Importance of Variables (conditional)", xlab="Variable", ylab="Contribution to R2", names.arg=names(contribute2), cex.names=0.4, las=.4)
+
+```
+```{r DA_plots_alternative, dependson="DA", dev=c("png"), fig.dim = c(6,4), dpi=500, echo=T, warning=FALSE, eval=TRUE}
+# working on prettier plots
+da_marg <- tibble(predictor = names(da$contribution.average[['n.marg']]),
+                  r2 = unname(da$contribution.average[['n.marg']]),
+                  gof = "Marginal R2") %>% 
+  mutate(Predictor_name = case_when(predictor == "log_airsageud" ~ "AirSage",
+                                    predictor == "log_pud" ~ "Flickr",
+                                    predictor == "log_tud" ~ "Twitter",
+                                    predictor == "log_aud" ~ "AllTrails",
+                                    predictor == "log_eud" ~ "eBird",
+                                    predictor == "temp" ~ "Temperature",
+                                    predictor == "log_pop30" ~ "Nearby Population",
+                                    predictor == "log_popin" ~ "In-unit Population",
+                                    predictor == "factor(region)" ~ "Region",
+                                    predictor == "factor(month)" ~ "Month",
+                                    predictor == "factor(year)" ~ "Year",
+                                    predictor == "agency" ~ "Agency")) %>% 
+    mutate(Predictor_name = fct_reorder(Predictor_name, -r2)) 
+da_marg
+
+da_cond <- tibble(predictor = names(da$contribution.average[['n.cond']]),
+                  r2 = unname(da$contribution.average[['n.cond']]),
+                  gof = "Conditional R2") %>% 
+  mutate(Predictor_name = case_when(predictor == "log_airsageud" ~ "AirSage",
+                                    predictor == "log_pud" ~ "Flickr",
+                                    predictor == "log_tud" ~ "Twitter",
+                                    predictor == "log_aud" ~ "AllTrails",
+                                    predictor == "log_eud" ~ "eBird",
+                                    predictor == "temp" ~ "Temperature",
+                                    predictor == "log_pop30" ~ "Nearby Population",
+                                    predictor == "log_popin" ~ "In-unit Population",
+                                    predictor == "factor(region)" ~ "Region",
+                                    predictor == "factor(month)" ~ "Month",
+                                    predictor == "factor(year)" ~ "Year",
+                                    predictor == "agency" ~ "Agency")) %>% 
+    mutate(Predictor_name = fct_reorder(Predictor_name, -r2)) 
+
+# put them together
+da_combined <- bind_rows(da_marg, da_cond) %>% 
+    mutate(gof =fct_relevel(gof, rev)) 
+
+ggplot(da_combined) +
+  geom_col(aes(x = Predictor_name, y = r2, fill = Predictor_name)) +
+    scale_fill_brewer(palette = "Paired", guide = "none") +
+    facet_wrap(~gof) +
+  scale_x_discrete(name = "Predictor") +
+  ylab("Contribution to R2") +
+  theme_bw() +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
+```
+## Fit model for each agency seperately and plot
+
+```{r echo = T,warning=FALSE }
+
+reg_NPS = lmer(log(visits)~log_airsageud+log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+(1|siteid), data=combined[combined$agency=="NPS",])
+reg_USFS = lmer(log(visits)~log_airsageud+log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+(1|siteid), data=combined[combined$agency =="USFS",])
+reg_FWS = lmer(log(visits)~log_airsageud+log_pud+log_tud+log_aud+log_eud+temp+log_pop30+log_popin+factor(region)+factor(month)+factor(year)+(1|siteid), data=combined[combined$agency=="FWS",])
+
+#put each regression result in table in seperate column label by agency
+print("NPS")
+tab_model(reg_NPS)
+print("USFS")
+tab_model(reg_USFS)
+print("FWS")
+tab_model(reg_FWS)
+
+stargazer(reg_NPS, reg_USFS, reg_FWS, type = "text")
+
+# scatter plot fitted regression results against observed
+
+pred_NPS=exp(predict(reg_NPS))
+
+pred_USFS=exp(predict(reg_USFS))
+
+pred_FWS=exp(predict(reg_FWS))
+
+#create regression set for each agency
+combined_regset_NPS=model.frame(reg_NPS)
+combined_regset_USFS=model.frame(reg_USFS)
+combined_regset_FWS=model.frame(reg_FWS)
+combined_regset_NPS$visits=exp(combined_regset_NPS$'log(visits)')
+combined_regset_USFS$visits=exp(combined_regset_USFS$'log(visits)')
+combined_regset_FWS$visits=exp(combined_regset_FWS$'log(visits)')
+
+plot(combined_regset_NPS$visits, pred_NPS, xlab="Observed", ylab="Fitted", main="Fitted vs Observed NPS", pch=19, col="blue")
+plot(combined_regset_USFS$visits, pred_USFS, xlab="Observed", ylab="Fitted", main="Fitted vs Observed USFS", pch=19, col="blue")
+plot(combined_regset_FWS$visits, pred_FWS, xlab="Observed", ylab="Fitted", main="Fitted vs Observed FWS", pch=19, col="blue")
+
+```
+
+
+
+## CV Fit to NPS predict USFS and FWS
+```{r echo = T,warning=FALSE }
+# Define the multiStats GOF functions
+multiStats <- function(data, lev = NULL, model = NULL) {
+  data=data[complete.cases(data),]
+  out <- c(RMSE = RMSE(data$pred, data$obs),
+           MAE = MAE(data$pred, data$obs),
+           MAPE = MAPE(data$pred, data$obs),
+           R2 = R2(data$pred, data$obs),
+           ME= mean(data$pred-data$obs))
+  names(out) <- c("RMSE", "MAE","MAPE","R2","ME")
+  out
+}
+
+multiStatslength=length(multiStats(data.frame(pred = 1, obs = 2)))
+```
+
+```{r echo = T,warning=FALSE }
+#list of models specifications to test
+model_list = list(formula(reg_covariates_re_loglog2),formula(reg_airsage_re_loglog2), formula(reg_flikr_re_loglog2), formula(reg_twitter_re_loglog2), formula(reg_aud_re_loglog2), formula(reg_eud_re_loglog2), formula(reg_allsources_re_loglog2), formula(reg_socialmedia_re_loglog2))
+
+#name them
+names(model_list) = c("Covariates","AirSage","Flickr","Twitter","AllTrails","eBird","All sources","Social media")
+
+
+#set the seed for reproducibility
+set.seed(13)
+```
+  
+```{r echo = T,warning=FALSE }
+
+train=combined[combined$agency=="NPS",]
+test=combined[combined$agency!="NPS",]
+
+# Create a array to store the results
+results=array(NA, dim=c(length(model_list),nrow(test)),dimnames = list(names(model_list),NULL))
+results_logs=array(NA, dim=c(length(model_list),nrow(test)),dimnames = list(names(model_list),NULL))
+
+for (m in 1:length(model_list)) {
+  # Fit the models
+  model <- lmer(model_list[[m]], data=train)
+
+  # Make predictions in levels not logs on test set
+  pred <- exp(predict(model, newdata=test, allow.new.levels = TRUE))
+
+  # Store the results
+  results[m,] <- pred
+  results_logs[m,] <- predict(model, newdata=test, allow.new.levels = TRUE)
+
+}
+
+#plot the in sample NPS model results
+mod=reg_allsources_re_loglog
+tab_model(mod)
+# scatter plot fitted regression results against observed
+pred=exp(predict(mod,newdata=train))
+plot(train$visits, pred, xlab="Observed", ylab="Fitted", main="Fitted vs Observed NPS", pch=19, col="blue")
+
+
+#plot the results for all sources model color by agency and label
+test$pred=results["All sources",]
+forplot_USFS=test[test$agency=="USFS",]
+plot(forplot_USFS$visits,forplot_USFS$pred,  xlab="Observed", ylab="Fitted", main="Fitted vs Observed USFS", pch=19, col="blue")
+
+ggplot(forplot_USFS) +
+    geom_abline(slope = 1, intercept = 0) +
+  geom_point(aes(x = visits, y = pred), shape = 19,
+             size = 2, color = "goldenrod") +
+  labs(x = "Observed", y = "Fitted") +
+  theme_bw(base_size = 20) +
+  theme(axis.text = element_text(size = 12), 
+        axis.title = element_text(size = 14), 
+        plot.title = element_text(size = 16)) +
+  scale_x_continuous(labels = function(x) format(x, scientific = FALSE))
+
+#FWS alone
+forplot_FWS=test[test$agency=="FWS",]
+plot(forplot_FWS$visits,forplot_FWS$pred , xlab="Observed", ylab="Fitted", main="Fitted vs Observed FWS", pch=19, col="red")
+
+ggplot(forplot_FWS) +
+    geom_abline(slope = 1, intercept = 0) +
+  geom_point(aes(x = visits, y = pred), shape = 19,
+             size = 2, color = "red2") +
+  labs(x = "Observed", y = "Fitted") +
+  theme_bw(base_size = 20) +
+  theme(axis.text = element_text(size = 12), 
+        axis.title = element_text(size = 14), 
+        plot.title = element_text(size = 16)) +
+  scale_y_continuous(labels = function(x) format(x, scientific = FALSE))
+
+```
+
+```{r NPS_pred_USFS_gof_stats, dev=c("pdf","png"), fig.dim = c(6,3), dpi=500, echo = T,warning=TRUE }
+#create GOF stats from results for USFS
+result_USFS=results[,test$agency=="USFS"]
+results_USFS_logs=results_logs[,test$agency=="USFS"]
+
+gof_stats <- data.frame(apply(result_USFS, 1, function(x) multiStats(data.frame(pred = x, obs = test$visits[test$agency=="USFS"]))))
+                        
+gof_stats_logs <- data.frame(apply(results_USFS_logs, 1, function(x) multiStats(data.frame(pred = x, obs = log(test$visits[test$agency=="USFS"])))))
+
+kable(gof_stats, caption = "GOF levels... not sure R2 is interpretable this way")
+kable(gof_stats_logs, caption = "GOF logs") 
+
+# make tables prettier, with colors!
+# making a generalized plotting function:
+
+pretty_plot <- function(stats_raw, digits = 2){
+  gof_stats_logs_t <- as.data.frame(t(round(stats_raw, digits = digits)))
+  stats_df <- gof_stats_logs_t %>% 
+    mutate(Model = stringr::str_replace(row.names(gof_stats_logs_t), "\\.", " "),
+           abs_ME = abs(ME)) %>% 
+    select(Model, R2, everything())
+  
+  flextable(stats_df, col_keys = c("Model", "R2", "RMSE", "MAE", "MAPE", "ME")) %>% 
+    bg(j = "R2", bg = scales::col_numeric(palette = "Blues", reverse = FALSE,
+                                               domain = c(min(stats_df$R2), 
+                                                          max(stats_df$R2)))) %>%
+    bg(j = "RMSE", bg = scales::col_numeric(palette = "Blues", reverse = TRUE,
+                                               domain = c(min(stats_df$RMSE), 
+                                                          max(stats_df$RMSE)))) %>%
+    bg(j = "MAE", bg = scales::col_numeric(palette = "Blues",  reverse = TRUE,
+                                               domain = c(min(stats_df$MAE), 
+                                                          max(stats_df$MAE)))) %>% 
+    bg(j = "MAPE", bg = scales::col_numeric(palette = "Blues",  reverse = TRUE,
+                                               domain = c(min(stats_df$MAPE), 
+                                                          max(stats_df$MAPE)))) %>% 
+    bg(j = "ME", source = "abs_ME", bg = scales::col_numeric(palette = "Blues",  reverse = TRUE,
+                                               domain = c(min(stats_df$abs_ME), 
+                                                          max(stats_df$abs_ME)))) %>% 
+    color(j = "R2", color = function(x){ifelse(x > mean(stats_df$R2), "white", "black")}) %>%
+    color(j = "RMSE", color = function(x){ifelse(x < mean(stats_df$RMSE), "white", "black")}) %>%
+    color(j = "MAE", color = function(x){ifelse(x < mean(stats_df$MAE), "white", "black")}) %>%
+    color(j = "MAPE", color = function(x){ifelse(x < mean(stats_df$MAPE), "white", "black")}) %>%
+    color(j = "ME", source = "abs_ME", color = function(x){ifelse(x < mean(stats_df$abs_ME), "white", "black")})
+}
+
+## make a version w/o ME or MAE
+pretty_plot_simple <- function(stats_raw, digits = 3){
+  gof_stats_logs_t <- as.data.frame(t(round(stats_raw, digits = digits)))
+  stats_df <- gof_stats_logs_t %>% 
+    mutate(Model = stringr::str_replace(row.names(gof_stats_logs_t), "\\.", " "),
+           abs_ME = abs(ME)) %>% 
+    select(Model, R2, everything())
+  
+  flextable(stats_df, col_keys = c("Model", "R2", "RMSE", "MAPE")) %>% 
+    bg(j = "R2", bg = scales::col_numeric(palette = "Blues", reverse = FALSE,
+                                               domain = c(min(stats_df$R2), 
+                                                          max(stats_df$R2)))) %>%
+    bg(j = "RMSE", bg = scales::col_numeric(palette = "Blues", reverse = TRUE,
+                                               domain = c(min(stats_df$RMSE), 
+                                                          max(stats_df$RMSE)))) %>%
+    bg(j = "MAPE", bg = scales::col_numeric(palette = "Blues",  reverse = TRUE,
+                                               domain = c(min(stats_df$MAPE), 
+                                                          max(stats_df$MAPE)))) %>% 
+    color(j = "R2", color = function(x){ifelse(x > mean(stats_df$R2), "white", "black")}) %>%
+    color(j = "RMSE", color = function(x){ifelse(x < mean(stats_df$RMSE), "white", "black")}) %>%
+    color(j = "MAPE", color = function(x){ifelse(x < mean(stats_df$MAPE), "white", "black")}) %>% 
+    mk_par(j = "MAPE", value = as_paragraph(as_chunk(MAPE, formatter = fmt_pct)))
+}
+
+ft_gof_logs <- pretty_plot_simple(gof_stats_logs)
+
+plot(ft_gof_logs)
+
+# save it
+# Note: not actually using this code. Figures are being saved using the Knit options via Rmd
+#save_as_image(ft_gof_logs, "../../figs/gof_stats_log_NPS_pred_USFS.png", res = 500)
+
+```
+```{r NPS_pred_USFS_gof_stats_ppl, dev=c("pdf","png"), fig.dim = c(6,3), dpi=500, echo = T,warning=TRUE}
+# ppl scale gof measures
+
+# need less detail for the big numbers in ppl terms. Make a modified function and then apply it
+pretty_plot_ppl <- function(stats_raw, digits = 2){
+  gof_stats_logs_t <- as.data.frame(t(round(stats_raw, digits = digits)))
+  
+  stats_df <- gof_stats_logs_t %>% 
+    mutate(Model = stringr::str_replace(row.names(gof_stats_logs_t), "\\.", " "),
+           abs_ME = abs(ME)) %>% 
+    select(Model, R2, everything())
+  
+  flextable(stats_df, col_keys = c("Model", "R2", "RMSE", "MAE", "MAPE", "ME")) %>% 
+    set_formatter(
+      RMSE = function(x) formatC(x, format = "fg", big.mark = ","),
+      MAE = function(x) formatC(x, format = "fg", big.mark = ","),
+      ME = function(x) formatC(x, format = "fg", big.mark = ",")) %>% 
+    bg(j = "R2", bg = scales::col_numeric(palette = "Blues", reverse = FALSE,
+                                               domain = c(min(stats_df$R2), 
+                                                          max(stats_df$R2)))) %>%
+    bg(j = "RMSE", bg = scales::col_numeric(palette = "Blues", reverse = TRUE,
+                                               domain = c(min(stats_df$RMSE), 
+                                                          max(stats_df$RMSE)))) %>%
+    bg(j = "MAE", bg = scales::col_numeric(palette = "Blues",  reverse = TRUE,
+                                               domain = c(min(stats_df$MAE), 
+                                                          max(stats_df$MAE)))) %>% 
+    bg(j = "MAPE", bg = scales::col_numeric(palette = "Blues",  reverse = TRUE,
+                                               domain = c(min(stats_df$MAPE), 
+                                                          max(stats_df$MAPE)))) %>% 
+    bg(j = "ME", source = "abs_ME", bg = scales::col_numeric(palette = "Blues",  reverse = TRUE,
+                                               domain = c(min(stats_df$abs_ME), 
+                                                          max(stats_df$abs_ME)))) %>% 
+    color(j = "R2", color = function(x){ifelse(x > 1.1*mean(stats_df$R2), "white", "black")}) %>%
+    color(j = "RMSE", color = function(x){ifelse(x < 1.1*mean(stats_df$RMSE), "white", "black")}) %>%
+    color(j = "MAE", color = function(x){ifelse(x < 1.1*mean(stats_df$MAE), "white", "black")}) %>%
+    color(j = "MAPE", color = function(x){ifelse(x < 1.1*mean(stats_df$MAPE), "white", "black")}) %>%
+    color(j = "ME", source = "abs_ME", color = function(x){ifelse(x < 1.1*mean(stats_df$abs_ME), "white", "black")})
+ }
+
+# version w/o MAE or ME. Also displays MAPE as %s
+pretty_plot_ppl_simple <- function(stats_raw, digits = 2){
+  gof_stats_logs_t <- as.data.frame(t(round(stats_raw, digits = digits)))
+  
+  stats_df <- gof_stats_logs_t %>% 
+    mutate(Model = stringr::str_replace(row.names(gof_stats_logs_t), "\\.", " "),
+           abs_ME = abs(ME)) %>% 
+    select(Model, R2, everything())
+  
+  flextable(stats_df, col_keys = c("Model", "R2", "RMSE", "MAPE")) %>% 
+    set_formatter(
+      RMSE = function(x) formatC(x, format = "fg", big.mark = ",")) %>% 
+    mk_par(j = "MAPE", value = as_paragraph(as_chunk(MAPE, formatter = fmt_pct))) %>% 
+    bg(j = "R2", bg = scales::col_numeric(palette = "Blues", reverse = FALSE,
+                                               domain = c(min(stats_df$R2), 
+                                                          max(stats_df$R2)))) %>%
+    bg(j = "RMSE", bg = scales::col_numeric(palette = "Blues", reverse = TRUE,
+                                               domain = c(min(stats_df$RMSE), 
+                                                          max(stats_df$RMSE)))) %>%
+    bg(j = "MAPE", bg = scales::col_numeric(palette = "Blues",  reverse = TRUE,
+                                               domain = c(min(stats_df$MAPE), 
+                                                          max(stats_df$MAPE)))) %>% 
+    color(j = "R2", color = function(x){ifelse(x > 1.1*mean(stats_df$R2), "white", "black")}) %>%
+    color(j = "RMSE", color = function(x){ifelse(x < 1.1*mean(stats_df$RMSE), "white", "black")}) %>%
+    color(j = "MAPE", color = function(x){ifelse(x < 1.1*mean(stats_df$MAPE), "white", "black")})
+ }
+
+ft_gof <- pretty_plot_ppl_simple(gof_stats)
+plot(ft_gof)
+
+```
+
+```{r NPS_pred_FWS_gof_stats, dev=c("pdf","png"), fig.dim = c(6,3), dpi=500, echo = T,warning=FALSE }
+#create GOF stats from results using dplyr for FWS
+result_FWS=results[,test$agency=="FWS"]
+results_FWS_logs=results_logs[,test$agency=="FWS"]
+
+gof_stats <- data.frame(apply(result_FWS, 1, function(x) multiStats(data.frame(pred = x, obs = test$visits[test$agency=="FWS"]))))
+                        
+gof_stats_logs <- data.frame(apply(results_FWS_logs, 1, function(x) multiStats(data.frame(pred = x, obs = log(test$visits[test$agency=="FWS"])))))
+
+kable(gof_stats, caption = "GOF levels... not sure R2 is interpretable this way")
+kable(gof_stats_logs, caption = "GOF logs") 
+
+# plot it
+ft_gof_logs <- pretty_plot_simple(gof_stats_logs)
+plot(ft_gof_logs)
+
+# save it
+# Note: not actually using this code. Figures are being saved using the Knit options via Rmd
+#save_as_image(ft_gof_logs, "../../figs/gof_stats_log_NPS_pred_FWS.png", res = 500)
+
+```
+```{r NPS_pred_FWS_gof_stats_ppl, dev=c("pdf","png"), fig.dim = c(6,3), dpi=500, echo = T,warning=FALSE }
+ft_gof <- pretty_plot_ppl_simple(gof_stats)
+plot(ft_gof)
+```
+
+## CV2 leave out units use model to predict visitation at any new public land unit, should agency be a RE?
+
+```{r echo = T,warning=FALSE }
+#list of models specifications to test
+model_list = list(formula(reg_covariates_re_loglog),formula(reg_airsage_re_loglog), formula(reg_flikr_re_loglog), formula(reg_twitter_re_loglog), formula(reg_aud_re_loglog), formula(reg_eud_re_loglog), formula(reg_allsources_re_loglog), formula(reg_socialmedia_re_loglog))
+
+#name them
+names(model_list) = c("Covariates","AirSage","Flickr","Twitter","AllTrails","eBird","All sources","Social media")
+
+```
+
+```{r CV2, echo = T,warning=FALSE, cache=TRUE}
+#set the seed for reproducibility
+set.seed(13)
+
+#settings for k-fold CV
+k=10
+iter=100
+
+siteids=unique(combined$siteid)
+
+# Create a array to store the results
+results <- array(NA, dim = c(iter, multiStatslength,length(model_list) ), dimnames = list(NULL, c("RMSE", "MAE","MAPE","R2","ME"), names(model_list)))
+results_logs <- array(NA, dim = c(iter, multiStatslength,length(model_list) ), dimnames = list(NULL, c("RMSE", "MAE","MAPE","R2","ME"), names(model_list)))
+
+#create k-fold CV test for USFS models with folds being siteids
+#loop through each iteration
+
+for (j in 1:iter) {
+  #create k-fold CV test for USFS with folds being sideids
+  folds <- createFolds(siteids, k = k, list = TRUE, returnTrain = TRUE)
+  site_ids_in_folds <- lapply(folds, function(fold) siteids[fold])
+  fold_sizes <- lapply(folds, length)
+  #View(fold_sizes)
+
+  for (i in 1:k) {
+    # Create the training and test sets
+    train <- combined[combined$siteid %in% site_ids_in_folds[[i]], ]
+    test <- combined[!combined$siteid %in% site_ids_in_folds[[i]], ]
+
+      for (m in 1:length(model_list)) {
+      # Fit the models
+      model <- lmer(model_list[[m]], data=train)
+      # Make predictions in levels not logs on test set
+      pred <- exp(predict(model, newdata=test, allow.new.levels = TRUE))
+      # Store the results
+      results[j,,m] <- multiStats(data.frame(pred = pred, obs = test$visits))
+      results_logs[j,,m] <- multiStats(data.frame(pred = predict(model, newdata=test, allow.new.levels = TRUE), obs = log(test$visits)))
+      }
+  }
+}
+
+# Calculate the mean of the GOF results across all iterations
+overall_multi=colMeans(results)
+overall_multi_logs=colMeans(results_logs)
+
+kable(overall_multi, caption = "GOF levels... not sure R2 is interpretable this way")
+kable(overall_multi_logs, caption = "GOF logs") 
+```
+
+```{r CV2_gof_stats, dependson="CV2", dev=c("pdf","png"), fig.dim = c(6,3), dpi=500, echo = T,warning=FALSE }
+ft_gof_logs <- pretty_plot_simple(overall_multi_logs, digits = 3)
+ft_gof_logs
+
+plot(ft_gof_logs)
+
+# save it
+#save_as_image(ft_gof_logs, "../../figs/gof_stats_log_CV2.png", res = 500)
+
+```
+
+```{r CV2_gof_stats_ppl, dependson="CV2", dev=c("pdf","png"), fig.dim = c(6,3), dpi=500, echo = T,warning=FALSE }
+ft_gof <- pretty_plot_ppl_simple(overall_multi, digits = 3)
+plot(ft_gof)
+```
+
+## CV 3 Use model to fill gaps in visitation time series, leave out sets of months across all unit types
+
+```{r CV3, echo = T,warning=FALSE, cache=TRUE}
+
+#settings for k-fold CV
+k=10
+iter=100 
+
+# Create a array to store the results
+results <- array(NA, dim = c(iter, multiStatslength,length(model_list) ), dimnames = list(NULL, c("RMSE", "MAE","MAPE","R2","ME"), names(model_list)))
+results_logs <- array(NA, dim = c(iter, multiStatslength,length(model_list) ), dimnames = list(NULL, c("RMSE", "MAE","MAPE","R2","ME"), names(model_list)))
+
+#create k-fold CV test for USFS models with folds being siteids
+#loop through each iteration
+
+for (j in 1:iter) {
+  #create k-fold CV test for USFS with folds being sets of months across all unit types
+  # Create folds based on months
+n_rows <- nrow(combined)
+folds <- createFolds(seq_len(n_rows), k = k, list = TRUE, returnTrain = TRUE)
+
+  for (i in 1:k) {
+    # Create the training and test sets
+
+    train <- combined[folds[[i]], ]
+    test <- combined[-folds[[i]], ]
+    
+      for (m in 1:length(model_list)) {
+      # Fit the models
+      model <- lmer(model_list[[m]], data=train)
+      # Make predictions in levels not logs on test set
+      pred <- exp(predict(model, newdata=test, allow.new.levels = TRUE))
+      # Store the results
+      results[j,,m] <- multiStats(data.frame(pred = pred, obs = test$visits))
+      results_logs[j,,m] <- multiStats(data.frame(pred = predict(model, newdata=test, allow.new.levels = TRUE), obs = log(test$visits)))
+      }
+  }
+}
+
+# Calculate the mean of the GOF results across all iterations
+overall_multi=colMeans(results)
+overall_multi_logs=colMeans(results_logs)
+
+kable(overall_multi, caption = "GOF levels... not sure R2 is interpretable this way")
+kable(overall_multi_logs, caption = "GOF logs") 
+```
+
+```{r CV3_gof_stats, dependson="CV3", dev=c("pdf","png"), fig.dim = c(6,3), dpi=500, echo = T,warning=FALSE}
+ft_gof_logs <- pretty_plot_simple(overall_multi_logs, digits = 3)
+ft_gof_logs
+plot(ft_gof_logs)
+# save it (not using this, it's being saved by the rmd knit option)
+#save_as_image(ft_gof_logs, "../../figs/gof_stats_log_CV3.png", res = 500)
+```
+
+```{r CV3_gof_stats_ppl, dependson="CV3", dev=c("pdf","png"), fig.dim = c(6,3), dpi=500, echo = T,warning=FALSE }
+ft_gof <- pretty_plot_ppl_simple(overall_multi, digits = 3)
+plot(ft_gof)
+```

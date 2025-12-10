@@ -1,0 +1,1041 @@
+siteid,ParkName,Year,Month,RecreationVisits,"FLAG  (0=nf, 1=f, 2=unsure, 3=nodata)",REASON
+NAT_016,Acadia NP,2018,1,11974,2,Schoodic Peninsula traffic count is an estimate based on a 5-year average. The ITS traffic counter along the Loop road was struck by lightening and has not collected data on that device for years. Acadia currently uses portable traffic counters for visitor use during April thru October.
+NAT_016,Acadia NP,2018,2,12167,2,Schoodic Peninsula traffic count is an estimate based on a 5-year average. The ITS traffic counter along the Schoodic Loop road was struck by lightening and has not collected data on that device for years. Acadia currently uses portable traffic counters for visitor use May thru October on the Schoodic Peninsula.
+NAT_016,Acadia NP,2018,3,23756,1,"The Sand Beach traffic counter along the Park Loop Road is flagged for estimation. The traffic counter failed to record 22 days in the month of March (03/01/18-03/22/18). Total recorded counts for Sand Beach (03/23-03/31) were 2081. Since there are over three weeks missing, we are using the daily estimate from a representative month last year. An estimate of 125-135 vehicles per day would be reasonable looking at the first three months of last year's data. To estimate the total traffic count, we used 125 vehicles per day on average and multiply by 22 days (counter was out). A little math... 125 average number of vehicles per day X 22 days out = 2750 vehicles. We know for the 9 days the counter was in service there was a recorded 2081 vehicles. 2750 + 2081 = 4831 vehicles estimated in the month of March 2018. Since this is an estimated number, we generally round the number so it does not look so exact. The number entered into Sand Beach this month is 4800. Schoodic Peninsula traffic count is an estimate based on a 5-year average. The ITS traffic counter along the Schoodic Loop road was struck by lightening and has not collected data on that device for years. Acadia currently uses portable traffic counters for visitor use May thru October on the Schoodic Peninsula."
+NAT_016,Acadia NP,2018,4,72858,1,"The Sand Beach traffic counter along the Park Loop Road is flagged for estimation. The traffic counter failed to record 19 days in the month of April (04/11/18-04/30/18). Total recorded counts for Sand Beach (04/01-04/11) were 2525. 
+Since there are over two weeks missing, we are using the daily estimate from April 2017. To estimate the total traffic count, we used the 390 vehicles per day average (April 2017 data) and multiply by 19 days (counter was out). 
+A little math... 390 average number of vehicles per day X 19 days out = 7410 vehicles. We know for the 11 days the counter was in service there was a recorded 2525 vehicles. 7410 + 2525 = 9935 vehicles estimated in the month of April 2018. Since this is an estimated number, we generally round the number so it does not look so exact. The number entered into Sand Beach this month is 9900. 
+Schoodic Peninsula traffic count is an estimate based on a 5-year average. The ITS traffic counter along the Schoodic Loop road was struck by lightening and has not collected data on that device for years. Acadia currently uses portable traffic counters for visitor use  May thru October on the Schoodic Peninsula"
+NAT_016,Acadia NP,2018,5,249050,1,Sand Beach traffic counter out 1 day this month. Isle Au Haut has no NOON boat for 2018 season.
+NAT_016,Acadia NP,2018,6,499163,0,"Isle Au Haut is having their road graded this season. 
+The Isle Au Haut boat service runs a different schedule this year than it did last year. In previous years there was a ""noon boat"" and this year. The schedule is as follows leaving Stonington: 0700, 1000, 1430, and 1730."
+NAT_016,Acadia NP,2018,7,759165,0,NA
+NAT_016,Acadia NP,2018,8,767219,0,NA
+NAT_016,Acadia NP,2018,9,600397,0,NA
+NAT_016,Acadia NP,2018,10,488204,0,"Waiting for Wildwood stables statistics for October 2018 - will be entered once received.
+Cadillac closed 10 times due to congestion issues and closed once due to unsafe conditions on the summit road.
+Bass Harbor Lighthouse parking area closed 3 times due to congestion issues. CUA Bus Count corrected 5/13/19"
+NAT_016,Acadia NP,2018,11,40930,1,"Sand Beach counter was out 1 day. Schoodic Traffic counter was removed November 7th, 2018. Schoodic visitation numbers are based on a five year average."
+NAT_016,Acadia NP,2018,12,12692,2,"Schoodic Traffic counter was removed November 7th, 2018. Schoodic visitation numbers are based on a five year average."
+NAT_016,Acadia NP,2019,1,8532,1,"The Government shutdown happened between 12/22/2018 to 01/25/2019. In saying this, the Sand Beach traffic counts reflect no non-recreation visits other than the occasional plowing to keep the Ocean Drive corridor open to the public. The numbers from Schoodic Peninsula are an estimate from the last 5 years of data."
+NAT_016,Acadia NP,2019,2,9154,2,The counter at Schoodic Peninsula is down for the winter.
+NAT_016,Acadia NP,2019,3,20161,0,NA
+NAT_016,Acadia NP,2019,4,68046,2,Testing system counts. Schoodic Peninsula did not have a traffic counters in April therefore the counts for April are estimated based on past data.
+NAT_016,Acadia NP,2019,5,226156,0,Hulls Cove Visitor Center under construction during May 2019. Seawall and Schoodic Campgrounds open 05/22/2019
+NAT_016,Acadia NP,2019,6,490720,1,"
+Cadillac Summit Gift Shop opened for the season SUN 6/23/219. Hulls Cove Vis Center opened for the season on WED 6/19/2019. All Isle au Haut numbers were estimates based on previous visitation numbers, and updated to real numbers on 7/25/2019"
+NAT_016,Acadia NP,2019,7,756439,1,SeaWall CG data is missing 2 days worth of data.
+NAT_016,Acadia NP,2019,8,759735,0,NA
+NAT_016,Acadia NP,2019,9,603273,1,Wildwood Camper data is estimated.
+NAT_016,Acadia NP,2019,10,436194,1,# of overnight stays at Wildwood was unavailable.
+NAT_016,Acadia NP,2019,11,46011,1,Off-season Schoodic visitation based on 5-year average.
+NAT_016,Acadia NP,2019,12,12865,1,1 Day out for Sand Beach due to a closure.
+NAT_037,Arches NP,2018,1,31810,2,Government shutdown 1/20 - 1/22/2018. Visitor Center not open.
+NAT_037,Arches NP,2018,2,40325,0,NA
+NAT_037,Arches NP,2018,3,134951,0,NA
+NAT_037,Arches NP,2018,4,167156,0,NA
+NAT_037,Arches NP,2018,5,215255,0,NA
+NAT_037,Arches NP,2018,6,214443,0,NA
+NAT_037,Arches NP,2018,7,205493,0,NA
+NAT_037,Arches NP,2018,8,183840,0,NA
+NAT_037,Arches NP,2018,9,206254,0,NA
+NAT_037,Arches NP,2018,10,147996,0,NA
+NAT_037,Arches NP,2018,11,74155,0,NA
+NAT_037,Arches NP,2018,12,41879,1,"Visitor Center closed on December 25th
+Government shutdown December 22 - January 25th.  During the shutdown the main park road was open, the campground was open, and the park's visitor center.  No commercial tour bus stats were collected during this time.  Fiery Furnace permits were still being issued through December 31st but backcountry permits were not.  The main park road was closed due to snow on December 31st however the park visitor center was still open to visitors.  Traffic counter data includes all visitors that visit the campground so traffic stats from December 31st are included in the total number of cars for the month."
+NAT_037,Arches NP,2019,1,21499,1,"
+Main park road closed into the park due to snow from 1/1-1/11/2019.  Approximately 2793 of the total vehicle count for the month were counted during that time but actually didn't make it into the park to recreate.  
+Park's visitor center was closed due to the government shutdown 1/1-1/11/2019. No Fiery Furnace or backcountry permits were issued during the government shutdown. Campground was open during the shutdown"
+NAT_037,Arches NP,2019,2,30239,0,Devils Garden Campground closed 2/1-2/28/2019 due to waterline leak in the campground
+NAT_037,Arches NP,2019,3,132191,0,NA
+NAT_037,Arches NP,2019,4,168788,0,NA
+NAT_037,Arches NP,2019,5,217474,1,Unable to obtain stats for number of tent/rv sites occupied. Using May 2018 numbers since the CG is full nightly this time of year
+NAT_037,Arches NP,2019,6,225206,0,NA
+NAT_037,Arches NP,2019,7,208993,0,NA
+NAT_037,Arches NP,2019,8,184890,0,NA
+NAT_037,Arches NP,2019,9,207857,0,NA
+NAT_037,Arches NP,2019,10,149764,0,NA
+NAT_037,Arches NP,2019,11,73420,0,NA
+NAT_037,Arches NP,2019,12,39381,0,"Visitor Center closed on December 25,2019. No Fiery Furnace permits issued due to weather on December 29th through December 31st, 2019"
+NAT_030,Assateague Island NS,2018,1,38769,2,Waiting for Chincoteague NWR to provide numbers. Used averages in the meantime. 2-9-18. Chincoteague provided numbers. 3-8-18
+NAT_030,Assateague Island NS,2018,2,44515,2,Waiting for actual numbers from Chincoteague NWR. Using 5 year average until updated. Chincoteague provided numbers 3-8-18
+NAT_030,Assateague Island NS,2018,3,64349,1,Used 5 year average for Chincoteague NWR stats until refuge can provide actual numbers.  5 year average for OSV-Bullpen used until park determines how to count users. Updated Chincoteague stats 8-7-18
+NAT_030,Assateague Island NS,2018,4,117990,1,"Averaged stats from Toms Cove District that are provided by USFWS, until refuge can provide actuals. 5-7-18. Chincoteague provided stats 8-7-18"
+NAT_030,Assateague Island NS,2018,5,182378,2,"Bullpen is actual count. Previously using a 5 year average for 5+years. Averaged Traffic Count at FWS Traffic Counter, Buses, and FWS Visitor Center until Chincoteague National Wildlife Refuge provides actual numbers. Updated stats from Chincoteague 8-7-18"
+NAT_030,Assateague Island NS,2018,6,300161,2,"Averaged Chicoteague NWR numbers until Refuge provides actuals. Bullpen numbers are actual counts, vs the 5 year average of an average that the park had been using. Updated stats from Chincoteague 8-7-18"
+NAT_030,Assateague Island NS,2018,7,482737,0,Actual number from OSV-Bullpen.
+NAT_030,Assateague Island NS,2018,8,441014,2,Averaging Chincoteague NWR stats until updated. Updated 11-8-18 with Chincoteague actuals.
+NAT_030,Assateague Island NS,2018,9,226607,1,5 year average for FWS numbers until actual provided. 10-9-2018. Bullpen 5 year average. No good numbers collected this month. Updated 11-8-18 with Chincoteague actuals.
+NAT_030,Assateague Island NS,2018,10,133813,2,"Again, not provided statistical information from Chincoteague NWR. Will update when received. Updated 11-8-18 with Chincoteague actuals. Updated 12-12-18 with correction to Barrier Island Visitor Center."
+NAT_030,Assateague Island NS,2018,11,70767,2,"
+Chincoteague NWR number are averages until provided with actuals. 12-12-18 Cincoteague NWR numbers updated with actuals provided 2-13-2019"
+NAT_030,Assateague Island NS,2018,12,33789,1,"OVS traffic counter reset several times, but discovered daily and averaged those days for a accurate number."
+NAT_030,Assateague Island NS,2019,1,64032,2,"5 year averages used for Chincoteague NWR until the park is provided with actual numbers. 2-13-2019 Updated 2-25-2019. Numbers low due to Govt shutdown Dec 22, 2018 - Jan 27, 2019."
+NAT_030,Assateague Island NS,2019,2,43977,0,NA
+NAT_030,Assateague Island NS,2019,3,74089,2,Waiting for Chincoteague numbers. Averages used. 4-8-19. Updated with Chincoteague numbers 5-15-19.
+NAT_030,Assateague Island NS,2019,4,153044,2,Waiting for actuals from Chincoteague NWR 5-6-2019. Actuals provided 5-26-2019
+NAT_030,Assateague Island NS,2019,5,199049,2,Waiting for actual number from Chincoteague. 6-7-19. Chincoteague actual numbers sent 7-31-2019
+NAT_030,Assateague Island NS,2019,6,312094,2,"
+5 year average used for Chincoteague NWR until actual numbers are provided. 7-6-2019. Chicoteague NWR provided actual numbers 7-31-2019"
+NAT_030,Assateague Island NS,2019,7,502416,0,NA
+NAT_030,Assateague Island NS,2019,8,453668,2,"
+Waiting for actuals from Chincoteague National Wildlife Refuge 9-18-2019. Updated with actuals 10-07-2019"
+NAT_030,Assateague Island NS,2019,9,274394,0,NA
+NAT_030,Assateague Island NS,2019,10,144479,2,Averages used for Chincoteague NWR until provided with actuals. 11-12-2019
+NAT_030,Assateague Island NS,2019,11,76779,2,Waiting for actuals from Chincoteague NWR. Averages used. 12-16-19
+NAT_030,Assateague Island NS,2019,12,46515,2,Waiting for CNWR numbers. 1-9-20
+NAT_023,Boston NHP,2018,1,28248,0,"
+Great Hall and Faneuil Hall VC closed for renovations.  USS Cassin Young and Shipyard Galley closed for season.  Park closed 5 days---2 snow days, 3 shutdown days."
+NAT_023,Boston NHP,2018,2,52641,0,"
+USS Cassin Young and Shipyard Galley continued closed seasonally. Great Hall and Faneuil Hall VC continued closed for renovations. Visitation to a temporary VC at 15 State Street included as a ""Special Event""."
+NAT_023,Boston NHP,2018,3,101855,0,"Great Hall and Faneuil Hall VC continued closed for renovations. USS Cassin Young and Shipyard Galley closed seasonally. A temporary Visitor Center at 15 State Street had 3,090 visitors which were included as a Special Event."
+NAT_023,Boston NHP,2018,4,161773,0,"Great Hall and Faneuil Hall VC continued closed for renovations. The visitation to a  temporary VC at 15 State St (4,286) was included in the Special Event number."
+NAT_023,Boston NHP,2018,5,271263,2,Great Hall continues closed for renovation. Faneuil Hall VC re-opened May 14.  The Special Event number includes visitation of 2256 to a temporary VC at 15 State which was closed May 19.
+NAT_023,Boston NHP,2018,6,405235,0,First month that Old North Church started to charge admission.
+NAT_023,Boston NHP,2018,7,514831,0,NA
+NAT_023,Boston NHP,2018,8,446510,0,NA
+NAT_023,Boston NHP,2018,9,374423,0,NA
+NAT_023,Boston NHP,2018,10,381323,0,NA
+NAT_023,Boston NHP,2018,11,188886,0,USS Cassin Young closed for the winter on Nov 13. Seasonal Shipyard Galley closed.Old North Church now charges admission so gets less visitation.
+NAT_023,Boston NHP,2018,12,126253,0,"
+USS Cassin Young closed for the season. Shipyard Galley closed for the season.  Of course, shutdown started Dec 22."
+NAT_023,Boston NHP,2019,1,54898,0,USS Cassin Young and Shipyard Galley closed for season.  Government shutdown until Jan 25.
+NAT_023,Boston NHP,2019,2,82987,0,NA
+NAT_023,Boston NHP,2019,3,153851,0,NA
+NAT_023,Boston NHP,2019,4,229628,0,NA
+NAT_023,Boston NHP,2019,5,298885,0,NA
+NAT_023,Boston NHP,2019,6,405914,0,NA
+NAT_023,Boston NHP,2019,7,505800,0,NA
+NAT_023,Boston NHP,2019,8,456429,0,NA
+NAT_023,Boston NHP,2019,9,353098,0,NA
+NAT_023,Boston NHP,2019,10,359876,0,NA
+NAT_023,Boston NHP,2019,11,172784,0,Shipyard Galley closed for the season. USS Cassin Young closed for the season Nov 11.
+NAT_023,Boston NHP,2019,12,127684,0,USS Cassin Young and Shipyard Gallery café closed for season. Park closed Dec 3 due to snow.
+NAT_028,Bryce Canyon NP,2018,1,32433,1,"
+Mossy Cave trail count is estimated. Counter not working.  The lodge was only open 1/1/18. It was closed for the remainder of January.  The shuttle is not running. Sunset Campground is closed."
+NAT_028,Bryce Canyon NP,2018,2,37132,1,"Mossy Cave trail counter is an estimate. The trail counter was not working from 2/1-14/2018. The count from late day 2/14 through 2/28 was 1147.
+No shuttles, no lodge, Sunset campground closed, and only A loop open in North Campground."
+NAT_028,Bryce Canyon NP,2018,3,95204,0,"Sunset Campground was closed the entire month of March.
+Shuttles did not run in the month of March."
+NAT_028,Bryce Canyon NP,2018,4,185282,0,"Sunset Campground: Opened April 16-30, A Loop only. 
+North Campground: A Loop only April 1-13. A & B Loops April 14-30.  Lodge: Partially open for the month of April.  Shuttle: Ran April 13- 30"
+NAT_028,Bryce Canyon NP,2018,5,340351,0,North Campground-A & B loop only loops open from  May 1 -18. May 19th-all loops open.
+NAT_028,Bryce Canyon NP,2018,6,409467,0,"
+Campgrounds were scheduled to be paved. This may have driven down # of stays. Project was cancelled."
+NAT_028,Bryce Canyon NP,2018,7,430020,0,NA
+NAT_028,Bryce Canyon NP,2018,8,393821,0,NA
+NAT_028,Bryce Canyon NP,2018,9,411456,1,The traffic counter at the entrance was intermittently counting incorrectly. It was observed counting every other car on two occasions during 10 minute periods.
+NAT_028,Bryce Canyon NP,2018,10,227297,1,"
+Intermittent problem with traffic counter at entrance station"
+NAT_028,Bryce Canyon NP,2018,11,73053,0,NA
+NAT_028,Bryce Canyon NP,2018,12,43962,1,"Traffic Count: actual number - LE picked up traffic count on final day in December so this is accurate. Mossy Cave: I waited to pick up the trail counter until morning of Feb 1. Then divided the count by two and attributed 1/2 to Dec and 1/2 to Jan. Non-tour bus: used actual # so it is missing 10 days of data. Shuttle does not run in December. Nonrec vehicles: used actual # so it is missing 10 days of data. Number of re-entries: took daily avg. for Dec. 2018 then multiplied by 31. This is a best est. based on our lower number for the traffic count, more snow than last year, govt. shutdown confusion with public and looking through 10 year avg.  Tents/RV's for North are actual numbers. We were down in the number of stays due to snow prior to the shutdown. The campground closed on December 23. Sunset-closed for the season. Bryce lodge overnight stays: actual number. Lodge did not close during shutdown. Backcountry campers: snow and trail closures kept people from camping in back country."
+NAT_028,Bryce Canyon NP,2019,1,36860,1,"The campground data, traffic counter data and mossy cave data are real numbers. Due to the partial gov't shutdown, all data marked with a flag is an estimate based on last year's numbers, an increase in the traffic counter over lasts year number, looking at the daily avg. based on the 5 days of real data and the increase over the previous two January's."
+NAT_028,Bryce Canyon NP,2019,2,29813,1,No data collected for 2/25 due to power outage. Half day of data 2/21 due to heavy snow resulting in 1/2 day Admin leave. Heavy snowfall-less campers and all trails below the rim closed for most of the month. Backcountry closed the whole month.. No shuttles in February. Lodge closed in February
+NAT_028,Bryce Canyon NP,2019,3,75853,0,NA
+NAT_028,Bryce Canyon NP,2019,4,207061,0,NA
+NAT_028,Bryce Canyon NP,2019,5,327975,0,NA
+NAT_028,Bryce Canyon NP,2019,6,398290,0,NA
+NAT_028,Bryce Canyon NP,2019,7,401970,0,NA
+NAT_028,Bryce Canyon NP,2019,8,383458,0,NA
+NAT_028,Bryce Canyon NP,2019,9,392428,2,The shuttle count was being counted manually last year at this time. It is now a sensor count.
+NAT_028,Bryce Canyon NP,2019,10,232094,0,NA
+NAT_028,Bryce Canyon NP,2019,11,65748,0,NA
+NAT_028,Bryce Canyon NP,2019,12,43354,0,NA
+NAT_036,Canaveral NS,2018,1,112023,0,NA
+NAT_036,Canaveral NS,2018,2,196655,0,NA
+NAT_036,Canaveral NS,2018,3,125562,0,NA
+NAT_036,Canaveral NS,2018,4,180827,0,NA
+NAT_036,Canaveral NS,2018,5,227620,0,NA
+NAT_036,Canaveral NS,2018,6,178216,0,NA
+NAT_036,Canaveral NS,2018,7,189285,0,NA
+NAT_036,Canaveral NS,2018,8,145902,0,NA
+NAT_036,Canaveral NS,2018,9,89187,0,NA
+NAT_036,Canaveral NS,2018,10,71536,0,NA
+NAT_036,Canaveral NS,2018,11,76885,0,NA
+NAT_036,Canaveral NS,2018,12,64157,2,Park closed due to gov shut down 22-31 Dec 2018
+NAT_036,Canaveral NS,2019,1,29020,0,NA
+NAT_036,Canaveral NS,2019,2,211401,0,NA
+NAT_036,Canaveral NS,2019,3,162987,0,NA
+NAT_036,Canaveral NS,2019,4,195898,0,NA
+NAT_036,Canaveral NS,2019,5,246616,0,NA
+NAT_036,Canaveral NS,2019,6,200381,0,NA
+NAT_036,Canaveral NS,2019,7,162947,1,Camping data is accurate but the rest is an estimate.
+NAT_036,Canaveral NS,2019,8,165527,1,SR Data estimated. New counter put in. Camping was closed for a few days at the end of the month for Hurricane Dorian.
+NAT_036,Canaveral NS,2019,9,138980,1,SR data is approximate.
+NAT_036,Canaveral NS,2019,10,118089,0,NA
+NAT_036,Canaveral NS,2019,11,129264,2,I am waiting for access to rec.gov for camping numbers.
+NAT_036,Canaveral NS,2019,12,123012,2,Awaiting rec.gov access to edit the camping numbers.
+NAT_027,Cape Hatteras NS,2018,1,60934,1,Bodie Island VC 5 yr average used.  Waiting for approval to install a counter for accurate numbers
+NAT_027,Cape Hatteras NS,2018,2,76818,0,NA
+NAT_027,Cape Hatteras NS,2018,3,179199,0,NA
+NAT_027,Cape Hatteras NS,2018,4,175377,0,NA
+NAT_027,Cape Hatteras NS,2018,5,249091,0,NA
+NAT_027,Cape Hatteras NS,2018,6,389722,0,NA
+NAT_027,Cape Hatteras NS,2018,7,405038,1,Ramp 43/44 counter is not accessible due to the flooding - 5 yr average used.
+NAT_027,Cape Hatteras NS,2018,8,387698,0,NA
+NAT_027,Cape Hatteras NS,2018,9,250105,0,NA
+NAT_027,Cape Hatteras NS,2018,10,201269,0,NA
+NAT_027,Cape Hatteras NS,2018,11,135634,0,NA
+NAT_027,Cape Hatteras NS,2018,12,80171,1,December counts for ramps and traffic are based on daily average since no counters were physically checked until the shutdown ended.
+NAT_027,Cape Hatteras NS,2019,1,72767,1,"Gov. shutdown 12/22/2018 - 01/25/2019 - partial data, daily averages used based on count from Dec 1 - Jan 31"
+NAT_027,Cape Hatteras NS,2019,2,72796,0,NA
+NAT_027,Cape Hatteras NS,2019,3,135597,0,NA
+NAT_027,Cape Hatteras NS,2019,4,205590,1,Ramp 43/44 used 3 yr average - road restoration may be affecting the counter - physical count and traffic counter varied quite a bit.
+NAT_027,Cape Hatteras NS,2019,5,263356,1,Ramp 43/44 is 3 yr average
+NAT_027,Cape Hatteras NS,2019,6,384260,2,New counter installed April 2019 - accurately counting now - grossly undercounted previously
+NAT_027,Cape Hatteras NS,2019,7,438846,2,New counter recently installed on ramp 70 providing an accurate count now.
+NAT_027,Cape Hatteras NS,2019,8,398662,0,NA
+NAT_027,Cape Hatteras NS,2019,9,242139,0,NA
+NAT_027,Cape Hatteras NS,2019,10,188710,1,Ramp 43/44 is a 3 yr average
+NAT_027,Cape Hatteras NS,2019,11,122516,0,NA
+NAT_027,Cape Hatteras NS,2019,12,81393,0,NA
+NAT_010,Castle Clinton NM,2018,1,164599,0,NA
+NAT_010,Castle Clinton NM,2018,2,198755,0,NA
+NAT_010,Castle Clinton NM,2018,3,306439,0,NA
+NAT_010,Castle Clinton NM,2018,4,375067,0,NA
+NAT_010,Castle Clinton NM,2018,5,453178,0,NA
+NAT_010,Castle Clinton NM,2018,6,522350,0,NA
+NAT_010,Castle Clinton NM,2018,7,611671,0,NA
+NAT_010,Castle Clinton NM,2018,8,555671,0,NA
+NAT_010,Castle Clinton NM,2018,9,381947,0,NA
+NAT_010,Castle Clinton NM,2018,10,380319,0,NA
+NAT_010,Castle Clinton NM,2018,11,283039,0,NA
+NAT_010,Castle Clinton NM,2018,12,300529,0,NA
+NAT_010,Castle Clinton NM,2019,1,181143,0,NA
+NAT_010,Castle Clinton NM,2019,2,193675,0,NA
+NAT_010,Castle Clinton NM,2019,3,269440,0,NA
+NAT_010,Castle Clinton NM,2019,4,412122,0,NA
+NAT_010,Castle Clinton NM,2019,5,413828,0,NA
+NAT_010,Castle Clinton NM,2019,6,468687,0,NA
+NAT_010,Castle Clinton NM,2019,7,558814,0,NA
+NAT_010,Castle Clinton NM,2019,8,550729,0,NA
+NAT_010,Castle Clinton NM,2019,9,372332,0,NA
+NAT_010,Castle Clinton NM,2019,10,375893,0,NA
+NAT_010,Castle Clinton NM,2019,11,271108,0,NA
+NAT_010,Castle Clinton NM,2019,12,293263,0,NA
+NAT_018,Chattahoochee River NRA,2018,1,183834,0,NA
+NAT_018,Chattahoochee River NRA,2018,2,191546,0,NA
+NAT_018,Chattahoochee River NRA,2018,3,201571,0,NA
+NAT_018,Chattahoochee River NRA,2018,4,230284,0,NA
+NAT_018,Chattahoochee River NRA,2018,5,284097,0,NA
+NAT_018,Chattahoochee River NRA,2018,6,248594,0,NA
+NAT_018,Chattahoochee River NRA,2018,7,378092,0,NA
+NAT_018,Chattahoochee River NRA,2018,8,254380,0,NA
+NAT_018,Chattahoochee River NRA,2018,9,320269,0,NA
+NAT_018,Chattahoochee River NRA,2018,10,198533,0,NA
+NAT_018,Chattahoochee River NRA,2018,11,178277,0,NA
+NAT_018,Chattahoochee River NRA,2018,12,204389,0,NA
+NAT_018,Chattahoochee River NRA,2019,1,204389,0,NA
+NAT_018,Chattahoochee River NRA,2019,2,133850,0,NA
+NAT_018,Chattahoochee River NRA,2019,3,202255,0,NA
+NAT_018,Chattahoochee River NRA,2019,4,244182,0,NA
+NAT_018,Chattahoochee River NRA,2019,5,369867,0,NA
+NAT_018,Chattahoochee River NRA,2019,6,439384,0,NA
+NAT_018,Chattahoochee River NRA,2019,7,301019,0,NA
+NAT_018,Chattahoochee River NRA,2019,8,391718,0,NA
+NAT_018,Chattahoochee River NRA,2019,9,332490,0,NA
+NAT_018,Chattahoochee River NRA,2019,10,281956,0,NA
+NAT_018,Chattahoochee River NRA,2019,11,321310,0,NA
+NAT_018,Chattahoochee River NRA,2019,12,170713,0,NA
+NAT_020,Colonial NHP,2018,1,136446,1,"Traffic Counters are still non-operational, used previous estimates"
+NAT_020,Colonial NHP,2018,2,106456,0,NA
+NAT_020,Colonial NHP,2018,3,280516,0,NA
+NAT_020,Colonial NHP,2018,4,333703,1,"Traffic counters down, last year's average used."
+NAT_020,Colonial NHP,2018,5,324434,0,NA
+NAT_020,Colonial NHP,2018,6,364086,0,NA
+NAT_020,Colonial NHP,2018,7,388694,0,NA
+NAT_020,Colonial NHP,2018,8,361008,0,NA
+NAT_020,Colonial NHP,2018,9,320749,0,NA
+NAT_020,Colonial NHP,2018,10,319247,0,NA
+NAT_020,Colonial NHP,2018,11,186900,0,NA
+NAT_020,Colonial NHP,2018,12,171985,0,NA
+NAT_020,Colonial NHP,2019,1,136446,0,NA
+NAT_020,Colonial NHP,2019,2,107039,0,NA
+NAT_020,Colonial NHP,2019,3,285752,0,NA
+NAT_020,Colonial NHP,2019,4,340954,0,NA
+NAT_020,Colonial NHP,2019,5,328825,0,NA
+NAT_020,Colonial NHP,2019,6,365948,0,NA
+NAT_020,Colonial NHP,2019,7,389391,0,NA
+NAT_020,Colonial NHP,2019,8,361274,0,NA
+NAT_020,Colonial NHP,2019,9,321973,0,NA
+NAT_020,Colonial NHP,2019,10,322718,0,NA
+NAT_020,Colonial NHP,2019,11,193094,0,NA
+NAT_020,Colonial NHP,2019,12,173854,0,NA
+NAT_032,Cuyahoga Valley NP,2018,1,87889,0,NA
+NAT_032,Cuyahoga Valley NP,2018,2,85669,0,NA
+NAT_032,Cuyahoga Valley NP,2018,3,105152,0,NA
+NAT_032,Cuyahoga Valley NP,2018,4,144536,0,NA
+NAT_032,Cuyahoga Valley NP,2018,5,246129,0,NA
+NAT_032,Cuyahoga Valley NP,2018,6,228620,0,NA
+NAT_032,Cuyahoga Valley NP,2018,7,298486,0,NA
+NAT_032,Cuyahoga Valley NP,2018,8,250311,0,NA
+NAT_032,Cuyahoga Valley NP,2018,9,192662,0,NA
+NAT_032,Cuyahoga Valley NP,2018,10,209344,0,NA
+NAT_032,Cuyahoga Valley NP,2018,11,136691,0,NA
+NAT_032,Cuyahoga Valley NP,2018,12,110564,1,"Due to Government Shut Down, historic data used for traffic counts because counters were not checked. Hand count numbers effected as park events and facilities were closed."
+NAT_032,Cuyahoga Valley NP,2019,1,88020,1,"Due to Government Shut Down, historic data used for traffic counts because counters were not checked. Hand count numbers effected as park events and facilities were closed."
+NAT_032,Cuyahoga Valley NP,2019,2,82061,0,NA
+NAT_032,Cuyahoga Valley NP,2019,3,126521,0,NA
+NAT_032,Cuyahoga Valley NP,2019,4,177318,0,NA
+NAT_032,Cuyahoga Valley NP,2019,5,225949,0,NA
+NAT_032,Cuyahoga Valley NP,2019,6,284079,0,NA
+NAT_032,Cuyahoga Valley NP,2019,7,284928,0,NA
+NAT_032,Cuyahoga Valley NP,2019,8,285616,0,NA
+NAT_032,Cuyahoga Valley NP,2019,9,226681,0,NA
+NAT_032,Cuyahoga Valley NP,2019,10,203708,0,NA
+NAT_032,Cuyahoga Valley NP,2019,11,142329,0,NA
+NAT_032,Cuyahoga Valley NP,2019,12,110787,0,NA
+NAT_019,Delaware Water Gap NRA,2018,1,138242,0,NA
+NAT_019,Delaware Water Gap NRA,2018,2,161733,0,NA
+NAT_019,Delaware Water Gap NRA,2018,3,57348,1,"These two snowstorms caused significant power outages and road closures.  U.S. Route 209 is the major route of travel through the Park and due to electrical poles down, the road was closed for days.  River Road, which is also a popular destination for winter activities such as ice fishing, snow shoeing, cross country skiing, was closed for several weeks and the electrical issue is still ongoing.  Many of the stats included have been estimated at a quarter of the use due to these storms."
+NAT_019,Delaware Water Gap NRA,2018,4,248223,0,NA
+NAT_019,Delaware Water Gap NRA,2018,5,336005,0,NA
+NAT_019,Delaware Water Gap NRA,2018,6,355257,0,NA
+NAT_019,Delaware Water Gap NRA,2018,7,510605,0,NA
+NAT_019,Delaware Water Gap NRA,2018,8,423438,0,NA
+NAT_019,Delaware Water Gap NRA,2018,9,316166,0,NA
+NAT_019,Delaware Water Gap NRA,2018,10,298907,0,NA
+NAT_019,Delaware Water Gap NRA,2018,11,248943,0,NA
+NAT_019,Delaware Water Gap NRA,2018,12,167054,0,NA
+NAT_019,Delaware Water Gap NRA,2019,1,130962,0,NA
+NAT_019,Delaware Water Gap NRA,2019,2,156297,0,NA
+NAT_019,Delaware Water Gap NRA,2019,3,146048,0,NA
+NAT_019,Delaware Water Gap NRA,2019,4,249160,0,NA
+NAT_019,Delaware Water Gap NRA,2019,5,336632,0,NA
+NAT_019,Delaware Water Gap NRA,2019,6,355136,0,NA
+NAT_019,Delaware Water Gap NRA,2019,7,510552,0,NA
+NAT_019,Delaware Water Gap NRA,2019,8,434019,0,NA
+NAT_019,Delaware Water Gap NRA,2019,9,328025,0,NA
+NAT_019,Delaware Water Gap NRA,2019,10,301758,0,NA
+NAT_019,Delaware Water Gap NRA,2019,11,254518,0,NA
+NAT_019,Delaware Water Gap NRA,2019,12,171758,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2018,1,64192,2,01/20-22/2018 Government shutdown. No Park Rangers on duty.
+NAT_021,Franklin Delano Roosevelt MEM,2018,2,122923,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2018,3,335787,2,"03/02/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty.
+
+03/21/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty."
+NAT_021,Franklin Delano Roosevelt MEM,2018,4,550325,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2018,5,525643,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2018,6,386400,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2018,7,294283,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2018,8,259680,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2018,9,202251,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2018,10,274677,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2018,11,157717,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2018,12,114421,2,"12/22/2018 - 12/31/2018  Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_021,Franklin Delano Roosevelt MEM,2019,1,64117,2,"1/1/2019-1/26/2019  Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_021,Franklin Delano Roosevelt MEM,2019,2,91467,2,"2/20/2019  Government closed due to inclement weather, but memorials remained open."
+NAT_021,Franklin Delano Roosevelt MEM,2019,3,342208,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2019,4,553920,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2019,5,518912,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2019,6,418325,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2019,7,315445,0,7/4/2019  Site closed for July 4th.
+NAT_021,Franklin Delano Roosevelt MEM,2019,8,221632,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2019,9,220427,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2019,10,266144,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2019,11,195104,0,NA
+NAT_021,Franklin Delano Roosevelt MEM,2019,12,95872,2,"12/25/2019  Christmas. No rangers on duty, but memorial open to visitors."
+NAT_034,Gateway Arch NP,2018,1,40170,0,NA
+NAT_034,Gateway Arch NP,2018,2,52068,0,NA
+NAT_034,Gateway Arch NP,2018,3,136466,0,NA
+NAT_034,Gateway Arch NP,2018,4,116666,0,NA
+NAT_034,Gateway Arch NP,2018,5,143522,0,NA
+NAT_034,Gateway Arch NP,2018,6,212462,0,NA
+NAT_034,Gateway Arch NP,2018,7,634978,0,NA
+NAT_034,Gateway Arch NP,2018,8,241684,0,NA
+NAT_034,Gateway Arch NP,2018,9,154380,0,NA
+NAT_034,Gateway Arch NP,2018,10,141037,0,NA
+NAT_034,Gateway Arch NP,2018,11,90061,0,NA
+NAT_034,Gateway Arch NP,2018,12,52686,1,ARCH AND OCH CLOSED DEC. 22-31 DURING SHUT-DOWN; ESTIMATED ON-GROUNDS VISITATION REFLECTED IN RIVERFRONT ATTENDANCE
+NAT_034,Gateway Arch NP,2019,1,18962,1,ARCH AND OCH CLOSED JAN 1-16 DUE TO GOVERNMENT SHUT-DOWN; ESTIMATED GROUNDS ATTENDANCE REFLECTED IN RIVERFRONT ATTENDANCE
+NAT_034,Gateway Arch NP,2019,2,51416,0,NA
+NAT_034,Gateway Arch NP,2019,3,164238,0,NA
+NAT_034,Gateway Arch NP,2019,4,138309,0,NA
+NAT_034,Gateway Arch NP,2019,5,165964,1,"mix up of paperwork, June numbers were put in for May report"
+NAT_034,Gateway Arch NP,2019,6,296149,0,NA
+NAT_034,Gateway Arch NP,2019,7,583866,0,NA
+NAT_034,Gateway Arch NP,2019,8,208999,0,NA
+NAT_034,Gateway Arch NP,2019,9,127764,0,NA
+NAT_034,Gateway Arch NP,2019,10,122770,0,NA
+NAT_034,Gateway Arch NP,2019,11,91836,0,NA
+NAT_034,Gateway Arch NP,2019,12,85036,0,NA
+NAT_025,Glacier NP,2018,1,12222,0,NA
+NAT_025,Glacier NP,2018,2,11847,0,NA
+NAT_025,Glacier NP,2018,3,21758,0,NA
+NAT_025,Glacier NP,2018,4,28404,0,NA
+NAT_025,Glacier NP,2018,5,195116,0,NA
+NAT_025,Glacier NP,2018,6,556304,0,NA
+NAT_025,Glacier NP,2018,7,905959,0,NA
+NAT_025,Glacier NP,2018,8,667688,0,NA
+NAT_025,Glacier NP,2018,9,434600,0,NA
+NAT_025,Glacier NP,2018,10,91973,0,NA
+NAT_025,Glacier NP,2018,11,20657,0,NA
+NAT_025,Glacier NP,2018,12,18781,0,NA
+NAT_025,Glacier NP,2019,1,13581,0,NA
+NAT_025,Glacier NP,2019,2,11240,0,NA
+NAT_025,Glacier NP,2019,3,23989,0,NA
+NAT_025,Glacier NP,2019,4,35491,1,Was notified by Region that the traffic counter in St. Mary is not reporting.  Someone will be out the week of May 20 to check into it.
+NAT_025,Glacier NP,2019,5,167403,0,NA
+NAT_025,Glacier NP,2019,6,544088,0,NA
+NAT_025,Glacier NP,2019,7,879711,0,NA
+NAT_025,Glacier NP,2019,8,771874,0,NA
+NAT_025,Glacier NP,2019,9,488909,0,NA
+NAT_025,Glacier NP,2019,10,78408,0,NA
+NAT_025,Glacier NP,2019,11,20008,0,NA
+NAT_025,Glacier NP,2019,12,15137,0,NA
+NAT_003,Grand Canyon NP,2018,1,257366,0,NA
+NAT_003,Grand Canyon NP,2018,2,265949,0,NA
+NAT_003,Grand Canyon NP,2018,3,503284,0,NA
+NAT_003,Grand Canyon NP,2018,4,549416,0,NA
+NAT_003,Grand Canyon NP,2018,5,637703,1,Estimated numbers for North Rim Campground.
+NAT_003,Grand Canyon NP,2018,6,673474,1,Traffic count at South Entrance estimated because of broken counters caused by road construction.
+NAT_003,Grand Canyon NP,2018,7,799765,1,South Entrance traffic count estimated due to counter being out of commission due to road construction.
+NAT_003,Grand Canyon NP,2018,8,744826,1,South Entrance traffic count estimated due to counter being out of commission due to road construction.
+NAT_003,Grand Canyon NP,2018,9,615783,1,South Entrance traffic count is estimated due to counters being down due to road construction.
+NAT_003,Grand Canyon NP,2018,10,555094,1,South Entrance and North Rim traffic is estimated due to traffic counters being down.
+NAT_003,Grand Canyon NP,2018,11,408794,1,South Rim traffic count estimated due to road construction causing traffic counter to be inoperable during the month of November.
+NAT_003,Grand Canyon NP,2018,12,369041,1,"
+Traffic data for South Entrance is estimated. Traffic counter was inoperable from December 1-7 due to new counter installation. Estimated data generated by taking daily average from December 8-31.
+
+Non-reportable, non-recreation, and bus numbers are estimated due to partial government shutdown. The park was open, but measured data was not collected. Estimates were produced using December 2018's most solid piece of data, the Desert View traffic counter. The counter showed a 3% decrease in traffic compared to December 2017. This was applied across December 2017 stats where needed to produce the December 2018 stats.
+
+Mather Campground numbers are estimated due to partial government shutdown. Estimate produced from average number of nights/campers from December 1-21."
+NAT_003,Grand Canyon NP,2019,1,225056,1,"
+Non-reportable, non-recreation, and bus numbers are estimated due to partial government shutdown. The park was open, but measured data was not collected for the entire month. Estimates were produced using January 2019's most solid pieces of data, the South Entrance and Desert View traffic counters. The counter showed a 13% decrease in traffic at South Entrance and a 10% decrease in traffic at Desert View compared to January 2018. This decrease was applied across South District and Desert View January 2018 stats where needed to produce the January 2019 stats.
+
+Mather Campground numbers are estimated due to partial government shutdown. Estimate produced from average number of nights/campers from January 26-31, 2019."
+NAT_003,Grand Canyon NP,2019,2,213050,0,NA
+NAT_003,Grand Canyon NP,2019,3,451228,0,NA
+NAT_003,Grand Canyon NP,2019,4,562265,0,NA
+NAT_003,Grand Canyon NP,2019,5,618598,2,"The following needs to be confirmed
+Winter Users at North Rim C.G.
+Number of Group Campers at N.R. and Mather"
+NAT_003,Grand Canyon NP,2019,6,643821,0,NA
+NAT_003,Grand Canyon NP,2019,7,756860,0,NA
+NAT_003,Grand Canyon NP,2019,8,700896,0,NA
+NAT_003,Grand Canyon NP,2019,9,578852,0,NA
+NAT_003,Grand Canyon NP,2019,10,551558,0,NA
+NAT_003,Grand Canyon NP,2019,11,347847,2,"A very impressive Thanksgiving snow storm created a park wide power failure from 3 AM on November 27th (Friday) to 1:45 AM on November 28th (Saturday). The City of Tusayan, located just outside our main gate, was also without power and declared a state of emergency. A number of state highways were closed as well as large portions of interstate 40 from the night of November 26th thru the morning of November 29. The two days, November 27 & 28, following Thanksgiving tend to be two of the busiest days of the year. But this year it was a bust."
+NAT_003,Grand Canyon NP,2019,12,324380,0,NA
+NAT_017,Grand Teton NP,2018,1,54298,1,North traffic counter and Moose/Wilson traffic counter are down. 5 year estimate used.
+NAT_017,Grand Teton NP,2018,2,47524,1,JDR/GRTE traffic counter down until the thaw for cable repair.  5 year average used.  Moran and Gros Ventre traffic counter missing 4 days (scattered throughout the month).  WYDOT unsure as to why this occurred.  5 year average less than actual reported data even with missing days.  Used actual data.
+NAT_017,Grand Teton NP,2018,3,57276,1,"Traffic counter at the JODR/GRTE inoperable (broken underground cable).  Will be repaired if, and when, thaw occurs."
+NAT_017,Grand Teton NP,2018,4,60541,0,NA
+NAT_017,Grand Teton NP,2018,5,296885,1,Traffic counter data delayed at WYDOT level.  5 year average used until data is received.  Traffice counter data updated 6/15/18
+NAT_017,Grand Teton NP,2018,6,627055,1,Traffic count delayed.  5 year average used. (Data from WYDOT rec'd 7/12 - traffic data updated.)
+NAT_017,Grand Teton NP,2018,7,795725,2,Missing data from Business Resources.  Will be updated when received.
+NAT_017,Grand Teton NP,2018,8,692074,2,Correction made to the commercial vehicle entry fee numbers for both north and south districts.
+NAT_017,Grand Teton NP,2018,9,558788,0,NA
+NAT_017,Grand Teton NP,2018,10,207534,0,NA
+NAT_017,Grand Teton NP,2018,11,44651,0,NA
+NAT_017,Grand Teton NP,2018,12,48800,1,North traffic counter broken.  5 yr avg used.  Counter will be repaired sometime in the Spring.
+NAT_017,Grand Teton NP,2019,1,56635,1,North park boundary traffic counter broken. Will be repaired in the Spring. 5 year average used for this location.
+NAT_017,Grand Teton NP,2019,2,43913,1,"Traffic counter at north boundary still down with an expected repair date sometime in May, hopefully, dependent on snow conditions.  Until then, 5 year average used."
+NAT_017,Grand Teton NP,2019,3,65864,1,North boundary traffic counter remains inoperable.
+NAT_017,Grand Teton NP,2019,4,59105,1,North boundary traffic counter remains inoperable.  5 year average used.
+NAT_017,Grand Teton NP,2019,5,278529,1,Traffic counter at north boundary remains inoperable until snow allows for repairs.  Average used.
+NAT_017,Grand Teton NP,2019,6,625441,0,NA
+NAT_017,Grand Teton NP,2019,7,775788,1,"Missing actuals for North counter reading. Seeking assistance from WYDOT. When/if received, report will be updated. In the meantime, 5 year average used."
+NAT_017,Grand Teton NP,2019,8,702022,0,NA
+NAT_017,Grand Teton NP,2019,9,517265,2,Concession data not received.  Will update when stats are available.
+NAT_017,Grand Teton NP,2019,10,186487,1,Used 5 year average for Granite Entrance.
+NAT_017,Grand Teton NP,2019,11,48132,2,Bus entries and fee waivers data coming soon!
+NAT_017,Grand Teton NP,2019,12,46433,1,5 Year estimates for the Moose-Wilson entrance and JDR southbound.
+NAT_001,Great Smoky Mountains NP,2018,1,320864,0,NA
+NAT_001,Great Smoky Mountains NP,2018,2,399156,0,NA
+NAT_001,Great Smoky Mountains NP,2018,3,689235,0,NA
+NAT_001,Great Smoky Mountains NP,2018,4,820657,0,NA
+NAT_001,Great Smoky Mountains NP,2018,5,985145,0,NA
+NAT_001,Great Smoky Mountains NP,2018,6,1401741,0,NA
+NAT_001,Great Smoky Mountains NP,2018,7,1468273,0,NA
+NAT_001,Great Smoky Mountains NP,2018,8,1195360,0,NA
+NAT_001,Great Smoky Mountains NP,2018,9,1369637,0,NA
+NAT_001,Great Smoky Mountains NP,2018,10,1263665,0,NA
+NAT_001,Great Smoky Mountains NP,2018,11,867110,0,NA
+NAT_001,Great Smoky Mountains NP,2018,12,640357,0,NA
+NAT_001,Great Smoky Mountains NP,2019,1,496743,0,NA
+NAT_001,Great Smoky Mountains NP,2019,2,421770,0,NA
+NAT_001,Great Smoky Mountains NP,2019,3,786305,0,NA
+NAT_001,Great Smoky Mountains NP,2019,4,999259,0,NA
+NAT_001,Great Smoky Mountains NP,2019,5,1096056,0,NA
+NAT_001,Great Smoky Mountains NP,2019,6,1469857,0,NA
+NAT_001,Great Smoky Mountains NP,2019,7,1613133,0,NA
+NAT_001,Great Smoky Mountains NP,2019,8,1411231,0,NA
+NAT_001,Great Smoky Mountains NP,2019,9,1273326,0,NA
+NAT_001,Great Smoky Mountains NP,2019,10,1408013,0,NA
+NAT_001,Great Smoky Mountains NP,2019,11,851419,0,NA
+NAT_001,Great Smoky Mountains NP,2019,12,720631,0,NA
+NAT_007,Independence NHP,2018,1,163593,0,NA
+NAT_007,Independence NHP,2018,2,211611,0,NA
+NAT_007,Independence NHP,2018,3,344360,0,NA
+NAT_007,Independence NHP,2018,4,427734,0,NA
+NAT_007,Independence NHP,2018,5,533839,0,NA
+NAT_007,Independence NHP,2018,6,555029,0,NA
+NAT_007,Independence NHP,2018,7,578039,0,NA
+NAT_007,Independence NHP,2018,8,501541,0,NA
+NAT_007,Independence NHP,2018,9,400697,0,NA
+NAT_007,Independence NHP,2018,10,366465,0,NA
+NAT_007,Independence NHP,2018,11,325509,0,NA
+NAT_007,Independence NHP,2018,12,168039,2,"
+Park buildings were closed doe to lapse in appropriations from December 22nd through December 31st."
+NAT_007,Independence NHP,2019,1,59682,2,Park buildings were closed for 25 days due to a lapse in appropriations.
+NAT_007,Independence NHP,2019,2,179578,0,NA
+NAT_007,Independence NHP,2019,3,309348,0,NA
+NAT_007,Independence NHP,2019,4,455740,0,NA
+NAT_007,Independence NHP,2019,5,548136,0,NA
+NAT_007,Independence NHP,2019,6,574706,0,NA
+NAT_007,Independence NHP,2019,7,553191,0,NA
+NAT_007,Independence NHP,2019,8,473898,0,NA
+NAT_007,Independence NHP,2019,9,409902,0,NA
+NAT_007,Independence NHP,2019,10,362563,0,NA
+NAT_007,Independence NHP,2019,11,336151,0,NA
+NAT_007,Independence NHP,2019,12,269564,0,NA
+NAT_033,Indiana Dunes NP,2018,1,70652,0,NA
+NAT_033,Indiana Dunes NP,2018,2,70450,0,NA
+NAT_033,Indiana Dunes NP,2018,3,128682,0,NA
+NAT_033,Indiana Dunes NP,2018,4,93585,0,NA
+NAT_033,Indiana Dunes NP,2018,5,143790,2,Updated the Porter North and South indo
+NAT_033,Indiana Dunes NP,2018,6,240295,1,The Porter and South counts were wrong so I corrected them.
+NAT_033,Indiana Dunes NP,2018,7,421553,1,Estimates will be changed as soon as the numbers come in.
+NAT_033,Indiana Dunes NP,2018,8,204010,0,NA
+NAT_033,Indiana Dunes NP,2018,9,167089,1,"Estimated for tents, RV's public programs and Douglas Center"
+NAT_033,Indiana Dunes NP,2018,10,132862,0,NA
+NAT_033,Indiana Dunes NP,2018,11,52878,0,NA
+NAT_033,Indiana Dunes NP,2018,12,30233,1,Mt Baldy & Porter South was closed. We have estimates because of government shutdown and the car counts was not taken.
+NAT_033,Indiana Dunes NP,2019,1,69916,0,NA
+NAT_033,Indiana Dunes NP,2019,2,85702,0,NA
+NAT_033,Indiana Dunes NP,2019,3,219070,0,NA
+NAT_033,Indiana Dunes NP,2019,4,107862,0,NA
+NAT_033,Indiana Dunes NP,2019,5,142403,0,NA
+NAT_033,Indiana Dunes NP,2019,6,302203,0,NA
+NAT_033,Indiana Dunes NP,2019,7,449968,0,NA
+NAT_033,Indiana Dunes NP,2019,8,290469,0,NA
+NAT_033,Indiana Dunes NP,2019,9,206226,0,NA
+NAT_033,Indiana Dunes NP,2019,10,105984,0,NA
+NAT_033,Indiana Dunes NP,2019,11,79674,0,NA
+NAT_033,Indiana Dunes NP,2019,12,74808,0,NA
+NAT_026,Joshua Tree NP,2018,1,297435,1,"More campground stats to come. Working on trying to get info downloaded from Cottonwood. Having technical difficulties Solar panel for the counter at Cottonwood has been stolen.
+Also as a reminder, the government was shutdown 1/20-1/22. So no campground stats were collected for those 3 days.
+
+2/20 - Cottonwoods #'s came back, but were incomplete due to the loss of power beginning 1/24. A formula was used to calculate a total for the full month."
+NAT_026,Joshua Tree NP,2018,2,288392,1,"
+Cottonwood counter was down until the 21st. The solar panel was stolen, the internal battery died, and once I recvd. the new battery it was discovered that it also needed to be reprogramed. Still waiting to get the solar panel connected."
+NAT_026,Joshua Tree NP,2018,3,404708,1,"Emailed the data from Denver counters to be translated on 4/4/18.
+A response was returned informing me that they would be out of the office for the rest of the week and will return the data on 4/9/18. I will update the stats at that time. -A. Jarvis
+Denver counter at CW did not record the vehicles for the last 10 days of the month. Numbers were calculated using a fixed formula."
+NAT_026,Joshua Tree NP,2018,4,325715,0,NA
+NAT_026,Joshua Tree NP,2018,5,247786,0,NA
+NAT_026,Joshua Tree NP,2018,6,153556,0,NA
+NAT_026,Joshua Tree NP,2018,7,130427,0,NA
+NAT_026,Joshua Tree NP,2018,8,142015,0,NA
+NAT_026,Joshua Tree NP,2018,9,149124,1,West Entrances Denver counter is not turning on I was not able to get car stats for the month of September
+NAT_026,Joshua Tree NP,2018,10,221232,1,West entrances Denver counter is still out of service.
+NAT_026,Joshua Tree NP,2018,11,299880,2,"Do to the shutdown this data is until December 22, 2018"
+NAT_026,Joshua Tree NP,2018,12,282112,2,Lapse in appropriation prevented the collection of accurate data.
+NAT_026,Joshua Tree NP,2019,1,195993,1,"I was not able to obtain Geology tour road, and Pleasant Valley due to road closure. The Denver counter for Cottonwood did record from the 11th of February to the 28th of February. Denver counters said they will trouble the issue and get back to me. Cottonwood Estimation was entered."
+NAT_026,Joshua Tree NP,2019,2,261230,0,NA
+NAT_026,Joshua Tree NP,2019,3,469183,1,Estimations based on visitor centers trends to supplement faulty traffic counters.
+NAT_026,Joshua Tree NP,2019,4,374789,1,Estimates based on increased visitation numbers from other locations to supplement faulty traffic counting equipment.
+NAT_026,Joshua Tree NP,2019,5,250928,1,Cotton Wood Denver didn't record first six days of month
+NAT_026,Joshua Tree NP,2019,6,187551,0,NA
+NAT_026,Joshua Tree NP,2019,7,138967,2,"
+Waiting on Denver counter for Cotton Wood"
+NAT_026,Joshua Tree NP,2019,8,120911,0,NA
+NAT_026,Joshua Tree NP,2019,9,160294,0,NA
+NAT_026,Joshua Tree NP,2019,10,233995,0,NA
+NAT_026,Joshua Tree NP,2019,11,291230,1,"Cottonwood Traffic Data. In bound lane traffic counter at cottonwood did not function properly for 10 ½ days, roughly corresponding to wet weather. Data input was estimated close to the five year average which resulted in a 6% drop under last year’s traffic in that area. However, the O/I data at the cottonwood visitor center showed a 7.9% increase over last year; the traffic data estimated in the opposite direction does not follow.  Conversely the outbound lane counter at cottonwood functioned for all but one in the month of November and shows a total daily traffic for the month at 11,018. The average daily total (ADT) for Lane 1 with missing data is 400 and 380 for lane two, a 20% difference. The missing data occurred on days where visitor traffic was lower and if the data were present would likely bring the ADT of both lanes closer to the 380. Based on this, revising the lane 1 traffic to an estimated 10200 is a conservative estimate and brings the traffic data in line with the O and I data at the visitor center."
+NAT_026,Joshua Tree NP,2019,12,303476,1,"
+add 300 to BR Vehicle Count for December, source Damon Yanez.
+Added 600 vehicles to West Entrance for data lost on Monday Dec 02.
+Covington Numbers based on Estimate due to access issues related to weather event."
+NAT_014,Korean War Veterans Memorial,2018,1,110923,2,1/20-22/2018 Government shutdown. No Park Rangers on duty.
+NAT_014,Korean War Veterans Memorial,2018,2,141333,0,NA
+NAT_014,Korean War Veterans Memorial,2018,3,354528,2,"03/02/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty.
+
+03/21/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty."
+NAT_014,Korean War Veterans Memorial,2018,4,512139,0,NA
+NAT_014,Korean War Veterans Memorial,2018,5,578347,0,NA
+NAT_014,Korean War Veterans Memorial,2018,6,517035,0,NA
+NAT_014,Korean War Veterans Memorial,2018,7,443904,0,NA
+NAT_014,Korean War Veterans Memorial,2018,8,394965,0,NA
+NAT_014,Korean War Veterans Memorial,2018,9,291893,0,NA
+NAT_014,Korean War Veterans Memorial,2018,10,356981,0,NA
+NAT_014,Korean War Veterans Memorial,2018,11,241173,0,NA
+NAT_014,Korean War Veterans Memorial,2018,12,164299,2,"12/22/2018 - 12/31/2018  Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_014,Korean War Veterans Memorial,2019,1,97525,2,"1/1/2019-1/26/2019 Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_014,Korean War Veterans Memorial,2019,2,129739,2,"2/20/2019  Federal government closed due to inclement weather, but memorials remained open."
+NAT_014,Korean War Veterans Memorial,2019,3,332875,0,NA
+NAT_014,Korean War Veterans Memorial,2019,4,512768,0,NA
+NAT_014,Korean War Veterans Memorial,2019,5,546731,0,NA
+NAT_014,Korean War Veterans Memorial,2019,6,495499,0,NA
+NAT_014,Korean War Veterans Memorial,2019,7,373813,0,NA
+NAT_014,Korean War Veterans Memorial,2019,8,310592,0,NA
+NAT_014,Korean War Veterans Memorial,2019,9,301707,0,NA
+NAT_014,Korean War Veterans Memorial,2019,10,346976,0,NA
+NAT_014,Korean War Veterans Memorial,2019,11,235477,0,NA
+NAT_014,Korean War Veterans Memorial,2019,12,157931,1,"12/25/2019 Christmas. No staff, but memorial was open."
+NAT_002,Lincoln Memorial,2018,1,348843,2,1/20-22/2018 Government shutdown. No Park Rangers on duty.
+NAT_002,Lincoln Memorial,2018,2,339680,0,NA
+NAT_002,Lincoln Memorial,2018,3,709568,2,"03/02/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty.
+
+03/21/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty."
+NAT_002,Lincoln Memorial,2018,4,829771,0,NA
+NAT_002,Lincoln Memorial,2018,5,974517,0,NA
+NAT_002,Lincoln Memorial,2018,6,808245,0,NA
+NAT_002,Lincoln Memorial,2018,7,897312,0,NA
+NAT_002,Lincoln Memorial,2018,8,818901,0,NA
+NAT_002,Lincoln Memorial,2018,9,599616,0,NA
+NAT_002,Lincoln Memorial,2018,10,618752,0,NA
+NAT_002,Lincoln Memorial,2018,11,463211,0,NA
+NAT_002,Lincoln Memorial,2018,12,396267,2,"12/22/2018 - 12/31/2018  Partial government shutdown. No rangers on duty, but memorials were open to visitors."
+NAT_002,Lincoln Memorial,2019,1,262421,2,"1/1/2019-1/26/2019 Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_002,Lincoln Memorial,2019,2,317312,2,"2/20/2019 Federal government closed due to inclement weather, but memorials remained open."
+NAT_002,Lincoln Memorial,2019,3,632384,0,NA
+NAT_002,Lincoln Memorial,2019,4,949707,0,NA
+NAT_002,Lincoln Memorial,2019,5,919307,0,NA
+NAT_002,Lincoln Memorial,2019,6,835584,0,NA
+NAT_002,Lincoln Memorial,2019,7,849280,0,NA
+NAT_002,Lincoln Memorial,2019,8,765163,0,NA
+NAT_002,Lincoln Memorial,2019,9,583200,0,NA
+NAT_002,Lincoln Memorial,2019,10,648384,0,NA
+NAT_002,Lincoln Memorial,2019,11,593472,0,NA
+NAT_002,Lincoln Memorial,2019,12,451968,2,"12/25/2019 Christmas. No rangers on duty, but memorial open to visitors."
+NAT_015,"Martin Luther King, Jr. Memorial",2018,1,97451,2,1/20-22/2018  Government shutdown. No Park Rangers on duty.
+NAT_015,"Martin Luther King, Jr. Memorial",2018,2,124640,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2018,3,320256,2,"03/02/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty.
+
+03/21/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty."
+NAT_015,"Martin Luther King, Jr. Memorial",2018,4,526635,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2018,5,543072,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2018,6,437525,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2018,7,371605,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2018,8,306677,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2018,9,246101,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2018,10,278379,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2018,11,192437,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2018,12,122656,2,"12/22/2018 - 12/31/2018 Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_015,"Martin Luther King, Jr. Memorial",2019,1,98485,2,"1/1/2019-1/26/2019 Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_015,"Martin Luther King, Jr. Memorial",2019,2,115573,2,"2/20/2019 Government closed due to inclement weather, but memorials remained open."
+NAT_015,"Martin Luther King, Jr. Memorial",2019,3,372448,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2019,4,519424,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2019,5,501440,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2019,6,459701,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2019,7,397323,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2019,8,326336,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2019,9,272651,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2019,10,276480,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2019,11,208928,0,NA
+NAT_015,"Martin Luther King, Jr. Memorial",2019,12,118773,2,"12/25/2019 Christmas. No rangers on duty, but memorial was open to visitors."
+NAT_035,Mount Rushmore NMEM,2018,1,22862,0,NA
+NAT_035,Mount Rushmore NMEM,2018,2,21883,0,NA
+NAT_035,Mount Rushmore NMEM,2018,3,56244,0,NA
+NAT_035,Mount Rushmore NMEM,2018,4,57374,1,Park was closed on April 13th due to snow. No Parking Facility data was taken that day.
+NAT_035,Mount Rushmore NMEM,2018,5,207266,0,NA
+NAT_035,Mount Rushmore NMEM,2018,6,428499,0,NA
+NAT_035,Mount Rushmore NMEM,2018,7,589223,0,NA
+NAT_035,Mount Rushmore NMEM,2018,8,441126,0,NA
+NAT_035,Mount Rushmore NMEM,2018,9,316815,0,NA
+NAT_035,Mount Rushmore NMEM,2018,10,108019,1,"Due to another computer problem at the Xanterra Parking Facility, the paid parking data for the 1st through the 4th have been completely lost. Also, all Buss Passenger numbers were not recorded during the entire month of October by the Parking Facility. All data on those days I mentioned are estimated numbers."
+NAT_035,Mount Rushmore NMEM,2018,11,35118,0,NA
+NAT_035,Mount Rushmore NMEM,2018,12,26844,1,Xanterra Parking was closed on 12/25/18 and 12/31/18. No parking data is available for those days.
+NAT_035,Mount Rushmore NMEM,2019,1,19351,0,NA
+NAT_035,Mount Rushmore NMEM,2019,2,17547,0,NA
+NAT_035,Mount Rushmore NMEM,2019,3,34485,1,Park was closed on March 13th and 14th due to snow. No parking facility information available.
+NAT_035,Mount Rushmore NMEM,2019,4,46477,1,The park was closed on the afternoon of the 10th and all day on the 11th due to a major snowstorm. There is no parking data available for the hours we were closed.
+NAT_035,Mount Rushmore NMEM,2019,5,146918,0,NA
+NAT_035,Mount Rushmore NMEM,2019,6,379108,0,NA
+NAT_035,Mount Rushmore NMEM,2019,7,522324,0,NA
+NAT_035,Mount Rushmore NMEM,2019,8,414171,0,NA
+NAT_035,Mount Rushmore NMEM,2019,9,265281,0,NA
+NAT_035,Mount Rushmore NMEM,2019,10,77952,0,NA
+NAT_035,Mount Rushmore NMEM,2019,11,22084,1,The Park was closed due to snow on November 30th. No Parking Lot numbers are available for that day.
+NAT_035,Mount Rushmore NMEM,2019,12,17842,1,"On December 1st the park closed early due to snow, there was only one vehicle to enter parking before closure on this day.  On December 25th the park was closed for Christmas Day. No parking data was recorded on that day."
+NAT_022,Olympic NP,2018,1,124050,0,NA
+NAT_022,Olympic NP,2018,2,95948,0,NA
+NAT_022,Olympic NP,2018,3,113917,0,NA
+NAT_022,Olympic NP,2018,4,161131,0,NA
+NAT_022,Olympic NP,2018,5,305775,0,NA
+NAT_022,Olympic NP,2018,6,462461,0,NA
+NAT_022,Olympic NP,2018,7,492372,0,NA
+NAT_022,Olympic NP,2018,8,655793,0,NA
+NAT_022,Olympic NP,2018,9,345371,1,The Hoh area numbers are estimated or lower than usual due to the road being closed for repairs from Sept 10 to Oct 5.
+NAT_022,Olympic NP,2018,10,193677,0,NA
+NAT_022,Olympic NP,2018,11,90207,0,NA
+NAT_022,Olympic NP,2018,12,63753,0,NA
+NAT_022,Olympic NP,2019,1,72725,2,0's are either due to government shutdown or regular seasonal / storm closures.
+NAT_022,Olympic NP,2019,2,73756,0,NA
+NAT_022,Olympic NP,2019,3,113720,0,NA
+NAT_022,Olympic NP,2019,4,159983,0,NA
+NAT_022,Olympic NP,2019,5,307426,0,NA
+NAT_022,Olympic NP,2019,6,499728,2,Sol Duc campground is now ran by Aramark. We get the numbers as a lump sum with their numbers so it is reported under Sol Duc resort campground.
+NAT_022,Olympic NP,2019,7,517058,0,NA
+NAT_022,Olympic NP,2019,8,737996,0,NA
+NAT_022,Olympic NP,2019,9,399907,0,NA
+NAT_022,Olympic NP,2019,10,182944,0,NA
+NAT_022,Olympic NP,2019,11,108204,0,NA
+NAT_022,Olympic NP,2019,12,72359,0,NA
+NAT_029,Rock Creek Park,2018,1,128138,0,NA
+NAT_029,Rock Creek Park,2018,2,123927,0,NA
+NAT_029,Rock Creek Park,2018,3,168073,0,NA
+NAT_029,Rock Creek Park,2018,4,204265,0,NA
+NAT_029,Rock Creek Park,2018,5,203355,0,NA
+NAT_029,Rock Creek Park,2018,6,264231,0,NA
+NAT_029,Rock Creek Park,2018,7,336653,0,NA
+NAT_029,Rock Creek Park,2018,8,259613,0,NA
+NAT_029,Rock Creek Park,2018,9,235386,0,NA
+NAT_029,Rock Creek Park,2018,10,207218,0,NA
+NAT_029,Rock Creek Park,2018,11,149244,0,NA
+NAT_029,Rock Creek Park,2018,12,115239,0,NA
+NAT_029,Rock Creek Park,2019,1,130686,1,all numbers estimated due to non-response to information requests.
+NAT_029,Rock Creek Park,2019,2,126438,1,All data estimated due to non-response to information request
+NAT_029,Rock Creek Park,2019,3,181709,1,All data estimated due to non-response to information request
+NAT_029,Rock Creek Park,2019,4,187505,1,All data estimated due to non-response to information request
+NAT_029,Rock Creek Park,2019,5,207784,1,All data estimated due to non-response to information request
+NAT_029,Rock Creek Park,2019,6,269196,1,All data estimated due to non-response to information request
+NAT_029,Rock Creek Park,2019,7,296541,1,All data estimated due to non-response to information request
+NAT_029,Rock Creek Park,2019,8,293243,1,All data estimated due to non-response to information request
+NAT_029,Rock Creek Park,2019,9,246054,1,All data estimated due to non-response to information request
+NAT_029,Rock Creek Park,2019,10,205315,1,All data estimated due to non-response to information request
+NAT_029,Rock Creek Park,2019,11,157363,1,All data estimated due to non-response to information request
+NAT_029,Rock Creek Park,2019,12,114398,1,All data estimated due to non-response to information request
+NAT_005,Rocky Mountain NP,2018,1,111422,0,NA
+NAT_005,Rocky Mountain NP,2018,2,84245,0,NA
+NAT_005,Rocky Mountain NP,2018,3,156434,1,Grand Lake Entrance is an estimate.
+NAT_005,Rocky Mountain NP,2018,4,151975,0,NA
+NAT_005,Rocky Mountain NP,2018,5,305993,0,NA
+NAT_005,Rocky Mountain NP,2018,6,720822,1,The counter for Longs Peak Road was broken in June; an estimation based on a five-year average was used
+NAT_005,Rocky Mountain NP,2018,7,931929,0,NA
+NAT_005,Rocky Mountain NP,2018,8,798306,0,NA
+NAT_005,Rocky Mountain NP,2018,9,784480,0,NA
+NAT_005,Rocky Mountain NP,2018,10,312757,0,NA
+NAT_005,Rocky Mountain NP,2018,11,125349,1,Wild Basin Entrance and Longs Peak Entrance are estimates based on 5-year averages.
+NAT_005,Rocky Mountain NP,2018,12,106781,1,"Due to road conditions from snowfall late Saturday, December 23 and blowing and drifting snow and ice combined with the inability to snowplow, sand or otherwise maintain the roads, gates were closed on December 24 past the Beaver Meadows Visitor Center on US 36, past the Fall River Entrance on US 34, past the Wild Basin Entrance on the Wild Basin Road and at the Grand Lake Entrance on US 34.  These entrances experienced walk-in visitors during the closure. The park is estimating an average parkwide of 500 walk-in visitors daily. For December this is 8 days (Monday, Dec 24, through Mon, Dec 31) x 500/day = 4000 walk-ins, and this estimate is added to the Beaver Meadows Entrance December count."
+NAT_005,Rocky Mountain NP,2019,1,118152,1,"•	For the time period in January that roads were not accessible by vehicles, the park is estimating an average parkwide of 200 walk-in visitors daily. For January this is 13 days (Tuesday, January 1, through Sunday, January 13) x 200/day = 2600 walk-ins, and this estimate is added to the Beaver Meadows Entrance January count."
+NAT_005,Rocky Mountain NP,2019,2,99873,0,NA
+NAT_005,Rocky Mountain NP,2019,3,146414,1,Lily Lake is a 5-year average.
+NAT_005,Rocky Mountain NP,2019,4,160259,0,NA
+NAT_005,Rocky Mountain NP,2019,5,280351,0,NA
+NAT_005,Rocky Mountain NP,2019,6,698224,0,NA
+NAT_005,Rocky Mountain NP,2019,7,973992,0,NA
+NAT_005,Rocky Mountain NP,2019,8,830039,0,NA
+NAT_005,Rocky Mountain NP,2019,9,752320,0,NA
+NAT_005,Rocky Mountain NP,2019,10,374003,1,"RMNP has new cash registers at all entrances, and these new machines do not yet produce reports like the previous ones did, so the number of buses and passengers at entrances are based on 5-year averages."
+NAT_005,Rocky Mountain NP,2019,11,123376,0,NA
+NAT_005,Rocky Mountain NP,2019,12,113050,1,"The number of buses is a total for all entrances; a breakout of entrances is not available. The number of bus passengers is an estimate; the actual number is not available due to complications with the new cash register system. 
+A year ago, the U.S. Government experienced a shutdown from 10 pm MST Friday, December 21, 2018, through 10 pm MST Friday, January 25, 2019. In December during the shutdown, RMNP experienced winter weather conditions and an inability to snowplow and grade main park roads, so gates were closed Dec 24-31, 2018. The park did estimate walk-in and minor entrance visitation during this time."
+NAT_013,San Francisco Maritime NHP,2018,1,271066,0,NA
+NAT_013,San Francisco Maritime NHP,2018,2,281925,0,NA
+NAT_013,San Francisco Maritime NHP,2018,3,292937,0,NA
+NAT_013,San Francisco Maritime NHP,2018,4,355508,0,NA
+NAT_013,San Francisco Maritime NHP,2018,5,363274,0,NA
+NAT_013,San Francisco Maritime NHP,2018,6,387228,0,NA
+NAT_013,San Francisco Maritime NHP,2018,7,584484,0,NA
+NAT_013,San Francisco Maritime NHP,2018,8,577144,0,NA
+NAT_013,San Francisco Maritime NHP,2018,9,333175,0,NA
+NAT_013,San Francisco Maritime NHP,2018,10,330591,0,NA
+NAT_013,San Francisco Maritime NHP,2018,11,282627,0,NA
+NAT_013,San Francisco Maritime NHP,2018,12,163583,0,NA
+NAT_013,San Francisco Maritime NHP,2019,1,34396,0,NA
+NAT_013,San Francisco Maritime NHP,2019,2,264354,0,NA
+NAT_013,San Francisco Maritime NHP,2019,3,290964,0,NA
+NAT_013,San Francisco Maritime NHP,2019,4,365334,0,NA
+NAT_013,San Francisco Maritime NHP,2019,5,358395,0,NA
+NAT_013,San Francisco Maritime NHP,2019,6,378036,0,NA
+NAT_013,San Francisco Maritime NHP,2019,7,562111,0,NA
+NAT_013,San Francisco Maritime NHP,2019,8,553994,0,NA
+NAT_013,San Francisco Maritime NHP,2019,9,329370,0,NA
+NAT_013,San Francisco Maritime NHP,2019,10,322157,0,NA
+NAT_013,San Francisco Maritime NHP,2019,11,279830,0,NA
+NAT_013,San Francisco Maritime NHP,2019,12,277657,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,1,13028,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,2,13956,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,3,22029,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,4,22370,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,5,94654,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,6,261590,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,7,491463,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,8,446426,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,9,147375,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,10,99740,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,11,17928,0,NA
+NAT_038,Sleeping Bear Dunes NL,2018,12,13041,2,SLBE was partially open during the government shutdown with limited service. The Visitor Center and campgrounds were closed.
+NAT_038,Sleeping Bear Dunes NL,2019,1,10663,2,"The National Lakeshore was partially open through the federal government shutdown from January 1 through 21, 2019. The visitor center was closed during this time."
+NAT_038,Sleeping Bear Dunes NL,2019,2,11830,0,NA
+NAT_038,Sleeping Bear Dunes NL,2019,3,23057,0,NA
+NAT_038,Sleeping Bear Dunes NL,2019,4,31584,0,NA
+NAT_038,Sleeping Bear Dunes NL,2019,5,73147,0,NA
+NAT_038,Sleeping Bear Dunes NL,2019,6,200494,0,NA
+NAT_038,Sleeping Bear Dunes NL,2019,7,499376,0,NA
+NAT_038,Sleeping Bear Dunes NL,2019,8,397417,0,NA
+NAT_038,Sleeping Bear Dunes NL,2019,9,187498,0,NA
+NAT_038,Sleeping Bear Dunes NL,2019,10,105630,0,NA
+NAT_038,Sleeping Bear Dunes NL,2019,11,16318,0,NA
+NAT_038,Sleeping Bear Dunes NL,2019,12,12987,0,NA
+NAT_011,Statue of Liberty NM,2018,1,139451,2,Monthly visitation numbers for the month of January any questions or concerns feel free to contact me.
+NAT_011,Statue of Liberty NM,2018,2,169275,2,"
+I submitted the visitation numbers for Ellis Island and Statue of Liberty.
+Any questions or concerns feel free to contact me."
+NAT_011,Statue of Liberty NM,2018,3,283884,2,Visitation numbers for Statue and Ellis island for the month of March
+NAT_011,Statue of Liberty NM,2018,4,358973,2,April monthly numbers. Any questions feel free to contact me
+NAT_011,Statue of Liberty NM,2018,5,448190,2,Monthly visitation numbers for Ellis Island and Liberty Island for the month of May 2018
+NAT_011,Statue of Liberty NM,2018,6,528171,0,NA
+NAT_011,Statue of Liberty NM,2018,7,614755,2,"
+Visitation numbers for the month of July 2018.
+Any questions or concerns please let me know."
+NAT_011,Statue of Liberty NM,2018,8,534864,2,"I'm sending the visitation number for August 2018.
+Any questions feel free to contact me"
+NAT_011,Statue of Liberty NM,2018,9,365847,2,"Monthly numbers for September for Ellis Island and Statue of Liberty.
+Any questions feel free to contact me"
+NAT_011,Statue of Liberty NM,2018,10,353891,2,"Monthly October numbers for Ellis and Liberty island.
+
+Any questions feel free to contact me"
+NAT_011,Statue of Liberty NM,2018,11,262815,2,"Monthly visitation numbers for November,
+
+Any questions feel free to contact me,"
+NAT_011,Statue of Liberty NM,2018,12,275315,2,"
+Monthly visitation numbers for Statue and Ellis island.
+Any questions feel free to contact me"
+NAT_011,Statue of Liberty NM,2019,1,155691,2,"January monthly visitation numbers for Ellis and Liberty Island.
+
+Any questions feel free to contact me"
+NAT_011,Statue of Liberty NM,2019,2,154755,2,"Monthly February numbers for Ellis and Liberty Island.
+Any questions feel free to contact me."
+NAT_011,Statue of Liberty NM,2019,3,279547,2,Monthly Statue of Liberty and Ellis Island
+NAT_011,Statue of Liberty NM,2019,4,397540,2,"Hello,
+
+Iam sending the monthly visitation numbers for April.
+Any questions feel free  to contact me."
+NAT_011,Statue of Liberty NM,2019,5,421176,2,"
+I entered the may visitation numbers for May 2019.
+If you have any questions feel free to contact me"
+NAT_011,Statue of Liberty NM,2019,6,487809,2,"Hello,
+
+Recording the monthly June visitation numbers.
+
+If you have any questions feel free to contact me."
+NAT_011,Statue of Liberty NM,2019,7,567256,2,The monthly July numbers for Ellis Island and Liberty Island have been submitted. If you have any questions feel free to contact me.
+NAT_011,Statue of Liberty NM,2019,8,541258,2,The August visitors numbers have been submitted. If you have any questions feel free to contact me.
+NAT_011,Statue of Liberty NM,2019,9,359037,2,Monthly September visitation numbers for Ellis and Liberty Island if you have any questions feel free to contact me.
+NAT_011,Statue of Liberty NM,2019,10,350174,2,"October monthly visitation numbers have been noted.
+If you have any questions feel free to contact me."
+NAT_011,Statue of Liberty NM,2019,11,253489,2,The November visitation numbers have been noted. If you have any questions feel free to contact me.
+NAT_011,Statue of Liberty NM,2019,12,272729,2,The December monthly visitation numbers have been noted. if you have any questions feel free to contact me.
+NAT_024,Thomas Jefferson MEM,2018,1,89909,2,1/20-22/2018 Government shutdown. No Park Rangers on duty.
+NAT_024,Thomas Jefferson MEM,2018,2,112469,0,NA
+NAT_024,Thomas Jefferson MEM,2018,3,298325,2,"03/02/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty.
+
+03/21/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty."
+NAT_024,Thomas Jefferson MEM,2018,4,542560,0,NA
+NAT_024,Thomas Jefferson MEM,2018,5,392811,0,NA
+NAT_024,Thomas Jefferson MEM,2018,6,382464,0,NA
+NAT_024,Thomas Jefferson MEM,2018,7,355211,0,NA
+NAT_024,Thomas Jefferson MEM,2018,8,296779,0,NA
+NAT_024,Thomas Jefferson MEM,2018,9,216032,0,NA
+NAT_024,Thomas Jefferson MEM,2018,10,256384,0,NA
+NAT_024,Thomas Jefferson MEM,2018,11,143104,0,NA
+NAT_024,Thomas Jefferson MEM,2018,12,112811,2,"12/22/2018 - 12/31/2018 Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_024,Thomas Jefferson MEM,2019,1,80693,2,"1/1/2019-1/26/2019 Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_024,Thomas Jefferson MEM,2019,2,109440,2,"2/20/2019 Government closed due to inclement weather, but memorials remained open."
+NAT_024,Thomas Jefferson MEM,2019,3,325557,0,NA
+NAT_024,Thomas Jefferson MEM,2019,4,535787,0,NA
+NAT_024,Thomas Jefferson MEM,2019,5,418507,0,NA
+NAT_024,Thomas Jefferson MEM,2019,6,384277,0,NA
+NAT_024,Thomas Jefferson MEM,2019,7,306699,0,NA
+NAT_024,Thomas Jefferson MEM,2019,8,238069,0,NA
+NAT_024,Thomas Jefferson MEM,2019,9,215424,0,NA
+NAT_024,Thomas Jefferson MEM,2019,10,235541,0,NA
+NAT_024,Thomas Jefferson MEM,2019,11,147605,0,NA
+NAT_024,Thomas Jefferson MEM,2019,12,99296,2,"12/25/2019 Christmas. No rangers on duty, but memorial open to visitors."
+NAT_031,Valley Forge NHP,2018,1,69389,0,NA
+NAT_031,Valley Forge NHP,2018,2,88106,0,NA
+NAT_031,Valley Forge NHP,2018,3,120756,0,NA
+NAT_031,Valley Forge NHP,2018,4,175032,0,NA
+NAT_031,Valley Forge NHP,2018,5,207024,0,NA
+NAT_031,Valley Forge NHP,2018,6,248611,2,not finished
+NAT_031,Valley Forge NHP,2018,7,348244,2,not done
+NAT_031,Valley Forge NHP,2018,8,260538,2,Not Done
+NAT_031,Valley Forge NHP,2018,9,108246,0,NA
+NAT_031,Valley Forge NHP,2018,10,112413,0,NA
+NAT_031,Valley Forge NHP,2018,11,112662,1,"Broken door counters in VC, Theater closed due to updates"
+NAT_031,Valley Forge NHP,2018,12,30341,2,"VC to TVC transition 13th-14th, March in 19th 2500, Fed Shutdown starts 22nd (Partners keep VC going) no programming."
+NAT_031,Valley Forge NHP,2019,1,30701,2,"Federal Govt Shutdown continued from Dec 22nd thru Jan 27th, TVC open through Partners & VIPs no Ranger programs. Need to update fields on form. TVC to count 2 doors, Front and RR."
+NAT_031,Valley Forge NHP,2019,2,55154,2,"not finished.  TVC new counters 2/16, no theater counts
+
+All reported information lost. Paperwork incomplete. Recovered what could be found in September."
+NAT_031,Valley Forge NHP,2019,3,168632,0,NA
+NAT_031,Valley Forge NHP,2019,4,159434,0,NA
+NAT_031,Valley Forge NHP,2019,5,190681,0,NA
+NAT_031,Valley Forge NHP,2019,6,218531,0,NA
+NAT_031,Valley Forge NHP,2019,7,346020,0,NA
+NAT_031,Valley Forge NHP,2019,8,355046,0,NA
+NAT_031,Valley Forge NHP,2019,9,232761,0,NA
+NAT_031,Valley Forge NHP,2019,10,247953,0,NA
+NAT_031,Valley Forge NHP,2019,11,149850,0,NA
+NAT_031,Valley Forge NHP,2019,12,105181,0,NA
+NAT_006,Vietnam Veterans MEM,2018,1,126123,2,1/20-22/2018  Government shutdown. No Park Rangers on duty.
+NAT_006,Vietnam Veterans MEM,2018,2,159563,0,NA
+NAT_006,Vietnam Veterans MEM,2018,3,401760,2,"03/02/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty.
+
+03/21/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty."
+NAT_006,Vietnam Veterans MEM,2018,4,515563,0,NA
+NAT_006,Vietnam Veterans MEM,2018,5,755680,0,NA
+NAT_006,Vietnam Veterans MEM,2018,6,554485,0,NA
+NAT_006,Vietnam Veterans MEM,2018,7,528523,0,NA
+NAT_006,Vietnam Veterans MEM,2018,8,443488,0,NA
+NAT_006,Vietnam Veterans MEM,2018,9,334133,0,NA
+NAT_006,Vietnam Veterans MEM,2018,10,455008,0,NA
+NAT_006,Vietnam Veterans MEM,2018,11,272907,0,NA
+NAT_006,Vietnam Veterans MEM,2018,12,171915,2,"12/22/2018 - 12/31/2018  Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_006,Vietnam Veterans MEM,2019,1,113056,2,"1/1/2019-1/26/2019  Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_006,Vietnam Veterans MEM,2019,2,141856,2,"2/20/2019 Federal government closed due to inclement weather, but memorials remained open."
+NAT_006,Vietnam Veterans MEM,2019,3,360480,0,NA
+NAT_006,Vietnam Veterans MEM,2019,4,567307,0,NA
+NAT_006,Vietnam Veterans MEM,2019,5,635915,0,NA
+NAT_006,Vietnam Veterans MEM,2019,6,588043,0,NA
+NAT_006,Vietnam Veterans MEM,2019,7,442837,0,NA
+NAT_006,Vietnam Veterans MEM,2019,8,409536,0,NA
+NAT_006,Vietnam Veterans MEM,2019,9,314635,0,NA
+NAT_006,Vietnam Veterans MEM,2019,10,467861,0,NA
+NAT_006,Vietnam Veterans MEM,2019,11,338144,0,NA
+NAT_006,Vietnam Veterans MEM,2019,12,200917,2,"12/25/2019 Christmas. No rangers on duty, but memorial open to visitors."
+NAT_004,World War II Memorial,2018,1,139851,2,1/20-22/2018 Government shutdown. No Park Rangers on duty.
+NAT_004,World War II Memorial,2018,2,145195,0,NA
+NAT_004,World War II Memorial,2018,3,383243,2,"03/02/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty.
+
+03/21/18 - Government closed in DC per OPM due to inclement weather, so no Park Rangers on duty."
+NAT_004,World War II Memorial,2018,4,624149,0,NA
+NAT_004,World War II Memorial,2018,5,611477,0,NA
+NAT_004,World War II Memorial,2018,6,518336,0,NA
+NAT_004,World War II Memorial,2018,7,494677,0,NA
+NAT_004,World War II Memorial,2018,8,498208,0,NA
+NAT_004,World War II Memorial,2018,9,386955,0,NA
+NAT_004,World War II Memorial,2018,10,410635,0,NA
+NAT_004,World War II Memorial,2018,11,250219,0,NA
+NAT_004,World War II Memorial,2018,12,189920,2,"12/22/2018 - 12/31/2018 Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_004,World War II Memorial,2019,1,104224,2,"1/1/2019-1/26/2019 Partial government shutdown. No rangers on duty, but memorials remained open."
+NAT_004,World War II Memorial,2019,2,137856,2,"2/20/2019 Federal government closed due to inclement weather, but memorials remained open."
+NAT_004,World War II Memorial,2019,3,341941,0,NA
+NAT_004,World War II Memorial,2019,4,624907,0,NA
+NAT_004,World War II Memorial,2019,5,664853,0,NA
+NAT_004,World War II Memorial,2019,6,611893,0,NA
+NAT_004,World War II Memorial,2019,7,513557,0,NA
+NAT_004,World War II Memorial,2019,8,476704,0,NA
+NAT_004,World War II Memorial,2019,9,417515,0,NA
+NAT_004,World War II Memorial,2019,10,395573,0,NA
+NAT_004,World War II Memorial,2019,11,324405,0,NA
+NAT_004,World War II Memorial,2019,12,217899,2,"12/25/2019 Christmas. No rangers on duty, but memorial open to visitors."
+NAT_012,Yellowstone NP,2018,1,29179,1,"Government shutdown 1/20-1/22, entrance stations were not staffed, counts for vehicle entries not recorded those days."
+NAT_012,Yellowstone NP,2018,2,34263,0,NA
+NAT_012,Yellowstone NP,2018,3,22741,0,NA
+NAT_012,Yellowstone NP,2018,4,37766,0,NA
+NAT_012,Yellowstone NP,2018,5,446875,1,Statistic entry error corrected for West & South on 7/10/18
+NAT_012,Yellowstone NP,2018,6,810884,0,NA
+NAT_012,Yellowstone NP,2018,7,940563,0,NA
+NAT_012,Yellowstone NP,2018,8,813970,0,NA
+NAT_012,Yellowstone NP,2018,9,724454,0,NA
+NAT_012,Yellowstone NP,2018,10,218076,0,NA
+NAT_012,Yellowstone NP,2018,11,13849,0,NA
+NAT_012,Yellowstone NP,2018,12,22380,0,NA
+NAT_012,Yellowstone NP,2019,1,33896,1,"The Federal Government was shutdown Jan 1-26, 2019. Statistics are combination of traffic counter at North Ent and data from Concession Permittee Monthly reports for oversnow use.
+North Ent stats likely affected by Mammoth Hotel closure for the 2018/19 winter season (closed for renovation)."
+NAT_012,Yellowstone NP,2019,2,31650,0,NA
+NAT_012,Yellowstone NP,2019,3,28695,0,NA
+NAT_012,Yellowstone NP,2019,4,48150,0,NA
+NAT_012,Yellowstone NP,2019,5,434385,0,NA
+NAT_012,Yellowstone NP,2019,6,781853,0,NA
+NAT_012,Yellowstone NP,2019,7,936062,0,NA
+NAT_012,Yellowstone NP,2019,8,820006,0,NA
+NAT_012,Yellowstone NP,2019,9,693118,0,NA
+NAT_012,Yellowstone NP,2019,10,171339,0,NA
+NAT_012,Yellowstone NP,2019,11,15628,0,NA
+NAT_012,Yellowstone NP,2019,12,25506,0,NA
+NAT_009,Yosemite NP,2018,1,129432,0,NA
+NAT_009,Yosemite NP,2018,2,143321,0,NA
+NAT_009,Yosemite NP,2018,3,170681,0,NA
+NAT_009,Yosemite NP,2018,4,278349,0,NA
+NAT_009,Yosemite NP,2018,5,385670,0,NA
+NAT_009,Yosemite NP,2018,6,543690,0,NA
+NAT_009,Yosemite NP,2018,7,504230,0,NA
+NAT_009,Yosemite NP,2018,8,441867,0,NA
+NAT_009,Yosemite NP,2018,9,524387,0,NA
+NAT_009,Yosemite NP,2018,10,360776,1,Traffic counts are down for the month of October due to replacement. Tioga pass station 4809 back on line 10/12.
+NAT_009,Yosemite NP,2018,11,215854,0,NA
+NAT_009,Yosemite NP,2018,12,311179,0,NA
+NAT_009,Yosemite NP,2019,1,116746,2,The entrance stations were not staffed during the GOV shutdown from 1/1 through 1/28. Campgrounds were staffed and reservations honored during the GOV shutdown.
+NAT_009,Yosemite NP,2019,2,111665,0,NA
+NAT_009,Yosemite NP,2019,3,173610,0,NA
+NAT_009,Yosemite NP,2019,4,297207,0,NA
+NAT_009,Yosemite NP,2019,5,393004,0,NA
+NAT_009,Yosemite NP,2019,6,496625,0,NA
+NAT_009,Yosemite NP,2019,7,717462,0,NA
+NAT_009,Yosemite NP,2019,8,703153,0,NA
+NAT_009,Yosemite NP,2019,9,584664,0,NA
+NAT_009,Yosemite NP,2019,10,448939,0,NA
+NAT_009,Yosemite NP,2019,11,230598,0,NA
+NAT_009,Yosemite NP,2019,12,149188,0,NA
+NAT_008,Zion NP,2018,1,107960,1,"
+Wilderness numbers delayed. Will update when Wilderness numbers are complete. South Campground closed for January. Heavy construction through HWY 9 Springdale. DD
+
+Wilderness numbers updated 2/9/2018 DD"
+NAT_008,Zion NP,2018,2,127790,2,Actual bus passenger count 6873.
+NAT_008,Zion NP,2018,3,373523,1,"Watchman Group site # is estimated based on historical data. 50% of actual data collected.
+Actual bus passengers 9400. 
+River pedestrian entrance closed on 3/1/2018 and 3/5/2018 through 3/9/2018 DD
+South and east vehicle numbers updated: South entrance from 83834 to 83985. East entrance from 27910 to 28036. Buses were deducted twice. 7/11/2018 DD"
+NAT_008,Zion NP,2018,4,483487,2,"
+Actual bus passengers = 15,551 DD
+South and east vehicle numbers updated: South entrance from 98946 to 99156. East entrance from 37637 to 37878. Buses were deducted twice. 7/11/2018 DD"
+NAT_008,Zion NP,2018,5,500118,2,"Kolob Canyons Closed for Road work the entire month of May.
+Actual bus Passengers 31510 DD
+South and east vehicle numbers updated: South entrance from 113128 to 113548. East entrance from 49881 to 50475. Buses were deducted twice. 7/11/2018 DD"
+NAT_008,Zion NP,2018,6,541464,2,"Kolob Canyons area closed due to road construction for month of June. 28,990 actual bus passengers. DD
+South and east vehicle numbers updated: South entrance from 106404 to 106721. East entrance from 47755 to 48334. Buses were deducted twice. 7/11/2018 DD"
+NAT_008,Zion NP,2018,7,500350,0,NA
+NAT_008,Zion NP,2018,8,459415,2,"Actual Bus passengers 18,928"
+NAT_008,Zion NP,2018,9,481507,2,"Actual bus passengers 31,831"
+NAT_008,Zion NP,2018,10,377826,2,"
+Actual total bus passengers from East, South, and River:  28,149
+River Station Sold one bus Pass."
+NAT_008,Zion NP,2018,11,218799,2,"Actual bus passengers from east and south entrance are 8,590."
+NAT_008,Zion NP,2018,12,147794,1,"ALL THESE NUMBERS ARE NOT ACCURATE DUE TO GOV SHUTDOWN FROM DEC. 22 - 31.
+
+BUS PASSENGERS = 2905"
+NAT_008,Zion NP,2019,1,98828,1,"ALL THESE NUMBERS ARE NOT ACCURATE DUE TO GOVERNMENT SHUTDOWN FROM JANUARY 1st - 27th.
+
+BUS PASSENGERS: 1,788
+
+Edit 6/11/2019 Buses reported through Advantage 1/25/19 through 1/31/2019 SE 29 with 1183 passengers. EE, 18 buses with 605 passengers. South entrance, East Entrance vehicle numbers and River entrance numbers updated 6/11/2019. All fee stations were closed from 1/1/2019 to 1/25/2019 due to Gov Shut down. DD"
+NAT_008,Zion NP,2019,2,102269,2,"These numbers are not accurate due to snow day closer.
+
+Pillow counts Changed.
+
+Numbers revised 6/11/2019 DD
+
+Bus Passengers is actual. Station numbers slightly revised."
+NAT_008,Zion NP,2019,3,296316,2,"
+All these numbers are not accurate due to road damaged. East side of the park was closed for 5 days. South campground opened on April 8th.
+
+Numbers updated 6/11/2019 DD"
+NAT_008,Zion NP,2019,4,372349,2,"All these numbers are not accurate due to road damage on SR9. Oversized vehicles were not able to go through the park.
+
+Numbers updated 6/11/2019 DD
+
+Group campers at WCG is estimated. Kolob Canyon numbers were added on 6/11/2019"
+NAT_008,Zion NP,2019,5,529553,2,"Numbers updated 6/11/2019 DD
+
+River entrance added, Kolob Canyons vehicles added, back country and entrance station #s updated. DD"
+NAT_008,Zion NP,2019,6,594896,0,NA
+NAT_008,Zion NP,2019,7,629802,0,NA
+NAT_008,Zion NP,2019,8,535322,0,NA
+NAT_008,Zion NP,2019,9,497443,1,"
+East Entrance station's counter wasn't working for couple days, so these numbers are not accurate. They are estimated
+
+*I had to change some numbers."
+NAT_008,Zion NP,2019,10,429604,0,NA
+NAT_008,Zion NP,2019,11,230180,1,"South Campground closed on November 1st.
+Some numbers are estimated due to major storms we recently had that closed some roads and knocked down traffic counters.
+
+
+
+Kolob Canyon numbers updated on 12/6/2019. Counter was INOP for the last week. DD"
+NAT_008,Zion NP,2019,12,171706,0,NA
