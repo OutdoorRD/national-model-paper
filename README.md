@@ -6,4 +6,4 @@ Public land management relies on accurate visitor counts in order to understand 
 
 Manuscript found here: 
 
-Merrill, N.H., Winder, S.G., Hanson, D.R. et al. A national model for estimating United States public land visitation. Sci Rep 15, 42764 (2025).. Available from: [https://doi.org/10.1038/s41598-025-26926-w](https://doi.org/10.1038/s41598-025-26926-w).
+Merrill, N.H., Winder, S.G., Hanson, D.R. et al. A national model for estimating United States public land visitation. Sci Rep 15, 42764 (2025). Available from: [https://doi.org/10.1038/s41598-025-26926-w](https://doi.org/10.1038/s41598-025-26926-w).
